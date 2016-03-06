@@ -117,6 +117,8 @@ header .navbar .navbar-right a.enter .sum {
   height: 310px;
   background: url(../images/baner.png);
   background-size: cover;
+  overflow: hidden;
+  margin-top: -7px;
 }
 .baner div.text {
   font-size: 27px;
