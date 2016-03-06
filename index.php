@@ -79,7 +79,6 @@
 			<div class="col-xs-4"></div>
 		</div>
 	</div>
-	<img src="images/baner.png" tag="">
 </div>
 <!--end baner-->
 <!--start big contant-->
