@@ -63,20 +63,17 @@
 	<div class="contaner">
 		<div class="row">
 			<div class="col-xs-4"></div>
-			<div class="col-xs-4"></div>
-			<div class="col-xs-4"></div>
-			<div class="col-xs-4"></div>
 			<div class="col-xs-2">
 				<div class="text text-right">
 					НА ЛЬНЯНОЕ ПОСТЕЛЬНОЕ БЕЛЬЕ СКИДКА
 				</div>
 			</div>
-			<div class=" col-xs-2">
-				<div class="per_sent" style="top: 50px;">
+			<div class="col-xs-2">
+				<div class="per_sent">
 				50%
 				</div>
+				<div class="col-xs-4"></div>
 			</div>
-			<div class="col-xs-4"></div>
 		</div>
 	</div>
 </div>
@@ -258,6 +255,6 @@
 			<p>Copyright &copy; магазин постельного беллья "Ля Прованс" 2011</p>
 		</div>
 	</div>
-</foter>
+</footer>
 </body>
 </html>
