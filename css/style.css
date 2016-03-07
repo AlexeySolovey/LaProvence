@@ -11,6 +11,7 @@ p {
 }
 .container {
   max-width: 1030px;
+  min-width: 300px;
 }
 .fb,
 .odnoklasniki,
@@ -35,46 +36,16 @@ header a:hover {
   color: #ff8888;
 }
 header a img.logo {
-  margin: 25px 0 20px 0;
+  margin: 10px 0 20px 0;
   width: 300px;
   height: 45px;
-}
-header button {
-  border: 0;
-  position: absolute;
-}
-header button.serch {
-  width: 15px;
-  height: 15px;
-  background-position: 0 0;
-  cursor: pointer;
-  margin-left: 10px;
-}
-header button.bag {
-  background-position: 0 -20px;
-  width: 21px;
-  height: 24px;
 }
 header p {
   color: #ff8888;
 }
-header #responsive-menu {
-  padding-top: 40px;
-  padding-bottom: 8px;
-}
-header #responsive-menu .nav > li > a {
-  font-size: 18px;
-  padding: 6px 25px 0 0;
-}
-header #responsive-menu .nav > li > a:hover {
-  background: #574340;
-}
-header .container .row .container {
-  padding: 0;
-}
 header .login {
   padding-top: 25px;
-  padding-right: 30px;
+  padding-right: 40px;
 }
 header .login a.register:after {
   content: "/";
@@ -84,24 +55,90 @@ header .disk-shope {
   font-size: 18px;
   font-weight: lighter;
 }
-header .navbar .navbar-right a.enter {
+/*menu*/
+button {
+  border: 0;
+  position: absolute;
+}
+button.serch {
+  width: 15px;
+  height: 15px;
+  background-position: 0 0;
+  cursor: pointer;
+  margin-left: 10px;
+}
+button.bag {
+  background-position: 0 -20px;
+  width: 21px;
+  height: 24px;
+}
+.navbar {
+  background: #574340;
+  margin-bottom: 0!important;
+  padding-bottom: 20px;
+  border-radius: 0!important;
+}
+.navbar a {
+  color: #846c67;
+}
+.navbar a:hover {
+  text-decoration: none;
+  color: #ff8888;
+}
+.navbar a img.logo {
+  margin: 25px 0 20px 0;
+  width: 300px;
+  height: 45px;
+}
+.navbar p {
+  color: #ff8888;
+}
+.navbar .navbar-header .navbar-toggle {
+  border-color: #846c67;
+}
+.navbar .navbar-header .navbar-toggle .icon-bar {
+  background-color: #846c67;
+}
+.navbar .navbar-header .navbar-toggle:hover .icon-bar,
+.navbar .navbar-header .navbar-toggle:focus .icon-bar {
+  background-color: #ff8888;
+}
+.navbar .navbar-header .navbar-toggle:hover,
+.navbar .navbar-header .navbar-toggle:focus {
+  border-color: #ff8888;
+}
+.navbar .navbar-right {
+  margin-top: 4px;
+}
+.navbar .navbar-right a.enter {
   border: 2px solid #846c67;
   padding: 10px 30px 10px 10px;
   font-size: 18px;
 }
-header .navbar .navbar-right a.enter:hover {
+.navbar .navbar-right a.enter:hover {
   color: #846c67;
 }
-header .navbar .navbar-right a.enter .basket {
+.navbar .navbar-right a.enter .basket {
   padding-right: 17px;
 }
-header .navbar .navbar-right a.enter .basket:hover {
+.navbar .navbar-right a.enter .basket:hover {
   color: #846c67;
 }
-header .navbar .navbar-right a.enter .count,
-header .navbar .navbar-right a.enter .sum {
+.navbar .navbar-right a.enter .count,
+.navbar .navbar-right a.enter .sum {
   color: #ff8888;
   padding-right: 10px;
+}
+#responsive-menu {
+  padding-top: 40px;
+  padding-bottom: 8px;
+}
+#responsive-menu .nav > li > a {
+  font-size: 18px;
+  padding: 6px 25px 0 0;
+}
+#responsive-menu .nav > li > a:hover {
+  background: #574340;
 }
 .ellipses {
   background-position: 0 -54px;

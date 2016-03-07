@@ -16,6 +16,7 @@ p{
 }
 .container{
 	max-width: 1030px;
+	min-width: 300px;
 }
 .fb, .odnoklasniki, .instagram, .bag, .serch, .vk{
 	background: url(../images/sprites.png) no-repeat;
@@ -35,47 +36,17 @@ header {
 			color: @pinkTextColor;
 		}
 		img.logo{
-			margin: 25px 0 20px 0;
+			margin: 10px 0 20px 0;
 			width: 300px;
 			height: 45px;
-		}
-	}
-	button{
-		border: 0;
-		position: absolute;
-		&.serch{
-			width: 15px;
-			height: 15px;
-			background-position: 0 0;
-			cursor: pointer;
-			margin-left: 10px;
-		}
-		&.bag{
-			background-position: 0 -20px ;
-			width: 21px;
-			height: 24px;
 		}
 	}
 	p {
 		color: @pinkTextColor;
 	}
-	#responsive-menu {
-		padding-top: 40px;
-		padding-bottom: 8px;
-		.nav > li > a{
-			font-size: 18px;
-			padding: 6px 25px 0 0;
-			&:hover{
-				background:@menuColor;
-			}
-		}
-	}	
-	.container .row .container{
-		padding: 0;
-	}
 	.login {
 		padding-top: 25px;
-		padding-right: 30px;
+		padding-right: 40px;
 		a.register:after {
 			content:"/";
 			color: @greyTextColor;
@@ -85,22 +56,87 @@ header {
 		font-size: 18px;
 		font-weight: lighter;
 	}
-	.navbar .navbar-right a.enter{
-		border: 2px solid @greyTextColor;
-		padding: 10px 30px 10px 10px;
-		font-size: 18px;
+}
+/*menu*/
+button{
+	border: 0;
+	position: absolute;
+	&.serch{
+		width: 15px;
+		height: 15px;
+		background-position: 0 0;
+		cursor: pointer;
+		margin-left: 10px;
+	}
+	&.bag{
+		background-position: 0 -20px ;
+		width: 21px;
+		height: 24px;
+	}
+}
+.navbar {
+	background:@menuColor;
+	margin-bottom: 0!important;
+	padding-bottom: 20px;
+	border-radius: 0!important;
+	a{
+		color: @greyTextColor;
 		&:hover{
-			color:@greyTextColor;
+			text-decoration: none;
+			color: @pinkTextColor;
 		}
+		img.logo{
+			margin: 25px 0 20px 0;
+			width: 300px;
+			height: 45px;
+		}
+	}
+	p {
+		color: @pinkTextColor;
+	}
+	.navbar-header .navbar-toggle {
+		border-color: @greyTextColor;
+		.icon-bar {
+			background-color: @greyTextColor;
+		}
+		&:hover .icon-bar,
+		&:focus .icon-bar{
+			background-color:@pinkTextColor;
+		}
+		&:hover, &:focus{
+			border-color: @pinkTextColor;
+		}
+	}
+	.navbar-right{
+		margin-top: 4px;
+		a.enter{
+			border: 2px solid @greyTextColor;
+			padding: 10px 30px 10px 10px;
+			font-size: 18px;
+			&:hover{
+				color:@greyTextColor;
+			}
 		.basket{
 			padding-right: 17px;
-		}
+			}
 		.basket:hover{
 			color:@greyTextColor;
-		}
+			}
 		.count, .sum {
 			color: @pinkTextColor;
 			padding-right: 10px;
+			}
+		}
+	}
+}
+#responsive-menu {
+	padding-top: 40px;
+	padding-bottom: 8px;
+	.nav > li > a{
+		font-size: 18px;
+		padding: 6px 25px 0 0;
+		&:hover{
+			background:@menuColor;
 		}
 	}
 }

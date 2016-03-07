@@ -3,7 +3,7 @@
 <head>
 	<title>La provance</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link href="css/mobile.css" rel="stylesheet" media="only screen and (max-width:480px)" />
+	<link href="css/mobile.css" rel="stylesheet" media="only screen and (min-width:320px)" />
 	<link href="css/style.css" rel="stylesheet" media="screen">
 	<link href="css/hover.css" rel="stylesheet" media="screen">
 	<link href="css/fonts.css" rel="stylesheet" media="screen">
@@ -11,6 +11,8 @@
 
 </head>
 <body>
+
+
 <header>
 	<div class="container">
 		<div class="row text-right login">
@@ -26,38 +28,39 @@
 				магазин домашнего текстиля
 			</p>
 		</div>
-		<div class="row">
-			<div class="navbar">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-							кнопка
-						</button>
-					</div>
-					<div class="collapse navbar-collapse" id="responsive-menu">
-						<ul class="nav navbar-nav">
-							<li><a href="#">Главная</a></li>
-							<li><a href="#">Каталог</a></li>
-							<li><a href="#">О льне</a></li>
-							<li><a href="#">Доставка/Оплата</a></li>
-							<li><a href="#">Новости</a></li>
-							<li><a href="#">Скидки</a></li>
-							<li><a href="#">Контакты</a></li>
-						</ul>
-						<div class="navbar-right">
-							<a href="#" class="enter">
-								<span class="basket">Корзина</span>
-								<span class="count">x1</span>
-								<span class="sum">1 500 грн</span>
-								<button type="button" class="bag"></button>
-							</a>
-						</div>
-					</div>
-				</div>
+	</div>
+</header>
+<div class="navbar">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+					<span class="sr-only">Открыть навигацию</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="responsive-menu">
+			<ul class="nav navbar-nav">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">О льне</a></li>
+				<li><a href="#">Доставка/Оплата</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">Скидки</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			<div class="navbar-right">
+				<a href="#" class="enter">
+					<span class="basket">Корзина</span>
+					<span class="count">x1</span>
+					<span class="sum">1 500 грн</span>
+					<button type="button" class="bag"></button>
+				</a>
 			</div>
 		</div>
 	</div>
-</header>
+</div>
 <div class="ellipses"></div>
 <!--start baner-->
 <div class="baner">

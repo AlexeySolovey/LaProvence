@@ -1,1 +1,317 @@
-body{background:#F6F6F6!important}footer,header{background:#574340}p{margin:0!important}.container{max-width:1030px}.bag,.fb,.instagram,.odnoklasniki,.serch,.vk{background:url(../images/sprites.png) no-repeat}.ellipses{background:url(../images/sprites.png) 0 -54px}header a{color:#846c67}header a:hover{text-decoration:none;color:#f88}header a img.logo{margin:25px 0 20px;width:300px;height:45px}header button{border:0;position:absolute}header button.serch{width:15px;height:15px;background-position:0 0;cursor:pointer;margin-left:10px}header button.bag{background-position:0 -20px;width:21px;height:24px}header p{color:#f88}header #responsive-menu{padding-top:40px;padding-bottom:8px}header #responsive-menu .nav>li>a{font-size:18px;padding:6px 25px 0 0}header #responsive-menu .nav>li>a:hover{background:#574340}header .container .row .container{padding:0}header .login{padding-top:25px;padding-right:30px}header .login a.register:after{content:"/";color:#846c67}header .disk-shope{font-size:18px;font-weight:lighter}header .navbar .navbar-right a.enter{border:2px solid #846c67;padding:10px 30px 10px 10px;font-size:18px}header .navbar .navbar-right a.enter:hover{color:#846c67}header .navbar .navbar-right a.enter .basket{padding-right:17px}header .navbar .navbar-right a.enter .basket:hover{color:#846c67}header .navbar .navbar-right a.enter .count,header .navbar .navbar-right a.enter .sum{color:#f88;padding-right:10px}.ellipses{background-position:0 -54px;margin-top:-7px;width:100%;height:13px;position:relative}.baner{display:table;width:100%;height:310px;background:url(../images/baner.png);background-size:cover;overflow:hidden;margin-top:-7px}.baner div.text{font-size:27px;color:#fff;display:table-cell;vertical-align:middle;height:310px}.baner div.per_sent{font-size:150px;color:#fff;height:310px;display:table-cell;vertical-align:middle}.discount{padding-top:18px}.discount,.news{padding-left:6px;padding-right:6px;color:#846c67}.discount h4,.news h4{padding-top:20px;padding-bottom:19px;font-size:22px;font-weight:lighter;letter-spacing:5px}.discount .col-xs-3,.news .col-xs-3{padding-right:9px;padding-left:9px}.discount .col-xs-3 .information,.news .col-xs-3 .information{background:#fff;text-align:center}.discount .col-xs-3 .information p.describe,.news .col-xs-3 .information p.describe{font-family:sansationRegular;font-size:17px;padding-top:22px;padding-bottom:6px}.discount .col-xs-3 .information p.size,.news .col-xs-3 .information p.size{font-size:13px;padding-bottom:18px}.discount .col-xs-3 .information span,.news .col-xs-3 .information span{font-size:17px}.discount .col-xs-3 .information span.past-price,.news .col-xs-3 .information span.past-price{text-decoration:line-through}.discount .col-xs-3 .information span.now-price,.news .col-xs-3 .information span.now-price{color:#f88}.discount .col-xs-3 .information button,.news .col-xs-3 .information button{margin-top:27px;margin-bottom:23px;padding:5px 14px;font-size:13px;border:0;background:#f88;color:#fff}.text{color:#846c67;font-family:OpenSans}.text h2{font-size:26px;text-align:center;padding:68px 175px 30px}.text p{font-size:17px;text-align:justify}footer{margin-top:64px}footer .footer-menu{padding-top:70px}footer .footer-menu ul{font-size:17px;padding:0}footer .footer-menu ul.contact,footer .footer-menu ul.first-footer-menu,footer .footer-menu ul.second-footer-menu{margin-left:-15px}footer .footer-menu ul li{list-style-type:none}footer .footer-menu ul a{color:#846c67;text-decoration:none;display:block}footer .footer-menu ul a:hover{color:#f88;text-decoration:none}footer .footer-menu ul.contact li{color:#846c67}footer .footer-menu ul.social{margin-left:-30px}footer .footer-menu ul.social li{display:inline-block;padding-right:4px}footer .footer-menu ul.social li a.vk{background-position:0 -70px;width:39px;height:39px}footer .footer-menu ul.social li a.fb{background-position:0 -110px;width:39px;height:39px}footer .footer-menu ul.social li a.odnoklasniki{background-position:0 -150px;width:39px;height:39px}footer .footer-menu ul.social li a.instagram{background-position:0 -190px;width:38px;height:39px}footer .text-center{color:#846c67}footer .text-center img{padding-top:76px;padding-bottom:24px}footer .text-center p{padding-bottom:53px}
+/*main*/
+body {
+  background: #F6F6F6 !important;
+}
+header,
+footer {
+  background: #574340;
+}
+p {
+  margin: 0 !important;
+}
+.container {
+  max-width: 1030px;
+  min-width: 300px;
+}
+.fb,
+.odnoklasniki,
+.instagram,
+.bag,
+.serch,
+.vk {
+  background: url(../images/sprites.png) no-repeat;
+}
+.ellipses {
+  background: url(../images/sprites.png);
+  background-position: 0 -54px;
+  width: 100%;
+  height: 13px;
+}
+/*header*/
+header a {
+  color: #846c67;
+}
+header a:hover {
+  text-decoration: none;
+  color: #ff8888;
+}
+header a img.logo {
+  margin: 10px 0 20px 0;
+  width: 300px;
+  height: 45px;
+}
+header p {
+  color: #ff8888;
+}
+header .login {
+  padding-top: 25px;
+  padding-right: 40px;
+}
+header .login a.register:after {
+  content: "/";
+  color: #846c67;
+}
+header .disk-shope {
+  font-size: 18px;
+  font-weight: lighter;
+}
+/*menu*/
+button {
+  border: 0;
+  position: absolute;
+}
+button.serch {
+  width: 15px;
+  height: 15px;
+  background-position: 0 0;
+  cursor: pointer;
+  margin-left: 10px;
+}
+button.bag {
+  background-position: 0 -20px;
+  width: 21px;
+  height: 24px;
+}
+.navbar {
+  background: #574340;
+  margin-bottom: 0!important;
+  padding-bottom: 20px;
+  border-radius: 0!important;
+}
+.navbar a {
+  color: #846c67;
+}
+.navbar a:hover {
+  text-decoration: none;
+  color: #ff8888;
+}
+.navbar a img.logo {
+  margin: 25px 0 20px 0;
+  width: 300px;
+  height: 45px;
+}
+.navbar p {
+  color: #ff8888;
+}
+.navbar .navbar-header .navbar-toggle {
+  border-color: #846c67;
+}
+.navbar .navbar-header .navbar-toggle .icon-bar {
+  background-color: #846c67;
+}
+.navbar .navbar-header .navbar-toggle:hover .icon-bar,
+.navbar .navbar-header .navbar-toggle:focus .icon-bar {
+  background-color: #ff8888;
+}
+.navbar .navbar-header .navbar-toggle:hover,
+.navbar .navbar-header .navbar-toggle:focus {
+  border-color: #ff8888;
+}
+.navbar .navbar-right {
+  margin-top: 4px;
+}
+.navbar .navbar-right a.enter {
+  border: 2px solid #846c67;
+  padding: 10px 30px 10px 10px;
+  font-size: 18px;
+}
+.navbar .navbar-right a.enter:hover {
+  color: #846c67;
+}
+.navbar .navbar-right a.enter .basket {
+  padding-right: 17px;
+}
+.navbar .navbar-right a.enter .basket:hover {
+  color: #846c67;
+}
+.navbar .navbar-right a.enter .count,
+.navbar .navbar-right a.enter .sum {
+  color: #ff8888;
+  padding-right: 10px;
+}
+#responsive-menu {
+  padding-top: 40px;
+  padding-bottom: 8px;
+}
+#responsive-menu .nav > li > a {
+  font-size: 18px;
+  padding: 6px 25px 0 0;
+}
+#responsive-menu .nav > li > a:hover {
+  background: #574340;
+}
+.ellipses {
+  background-position: 0 -54px;
+  margin-top: -7px;
+  width: 100%;
+  height: 13px;
+  position: relative;
+}
+/*baner*/
+.baner {
+  display: table;
+  width: 100%;
+  height: 310px;
+  background: url(../images/baner.png);
+  background-size: cover;
+  overflow: hidden;
+  margin-top: -7px;
+}
+.baner div.text {
+  font-size: 27px;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  height: 310px;
+}
+.baner div.per_sent {
+  font-size: 150px;
+  color: #fff;
+  height: 310px;
+  display: table-cell;
+  vertical-align: middle;
+}
+/*Big content*/
+.discount {
+  padding-top: 18px;
+}
+.news,
+.discount {
+  padding-left: 6px;
+  padding-right: 6px;
+  color: #846c67;
+}
+.news h4,
+.discount h4 {
+  padding-top: 20px;
+  padding-bottom: 19px;
+  font-size: 22px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+.news .col-xs-3,
+.discount .col-xs-3 {
+  padding-right: 9px;
+  padding-left: 9px;
+}
+.news .col-xs-3 .information,
+.discount .col-xs-3 .information {
+  background: #fff;
+  text-align: center;
+}
+.news .col-xs-3 .information p.describe,
+.discount .col-xs-3 .information p.describe {
+  font-family: sansationRegular;
+  font-size: 17px;
+  padding-top: 22px;
+  padding-bottom: 6px;
+}
+.news .col-xs-3 .information p.size,
+.discount .col-xs-3 .information p.size {
+  font-size: 13px;
+  padding-bottom: 18px;
+}
+.news .col-xs-3 .information span,
+.discount .col-xs-3 .information span {
+  font-size: 17px;
+}
+.news .col-xs-3 .information span.past-price,
+.discount .col-xs-3 .information span.past-price {
+  text-decoration: line-through;
+}
+.news .col-xs-3 .information span.now-price,
+.discount .col-xs-3 .information span.now-price {
+  color: #ff8888;
+}
+.news .col-xs-3 .information button,
+.discount .col-xs-3 .information button {
+  margin-top: 27px;
+  margin-bottom: 23px;
+  padding: 5px 14px;
+  font-size: 13px;
+  border: 0;
+  background: #ff8888;
+  color: #fff;
+}
+/*Text block*/
+.text {
+  color: #846c67;
+  font-family: OpenSans;
+}
+.text h2 {
+  font-size: 26px;
+  text-align: center;
+  padding: 68px 175px 30px 175px;
+}
+.text p {
+  font-size: 17px;
+  text-align: justify;
+}
+/* footer*/
+footer {
+  margin-top: 64px;
+}
+footer .footer-menu {
+  padding-top: 70px;
+}
+footer .footer-menu ul {
+  font-size: 17px;
+  padding: 0;
+}
+footer .footer-menu ul.first-footer-menu,
+footer .footer-menu ul.second-footer-menu,
+footer .footer-menu ul.contact {
+  margin-left: -15px;
+}
+footer .footer-menu ul li {
+  list-style-type: none;
+}
+footer .footer-menu ul a {
+  color: #846c67;
+  text-decoration: none;
+  display: block;
+}
+footer .footer-menu ul a:hover {
+  color: #ff8888;
+  text-decoration: none;
+}
+footer .footer-menu ul.contact li {
+  color: #846c67;
+}
+footer .footer-menu ul.social {
+  margin-left: -30px;
+}
+footer .footer-menu ul.social li {
+  display: inline-block;
+  padding-right: 4px;
+}
+footer .footer-menu ul.social li a.vk {
+  background-position: 0 -70px;
+  width: 39px;
+  height: 39px;
+}
+footer .footer-menu ul.social li a.fb {
+  background-position: 0 -110px;
+  width: 39px;
+  height: 39px;
+}
+footer .footer-menu ul.social li a.odnoklasniki {
+  background-position: 0 -150px;
+  width: 39px;
+  height: 39px;
+}
+footer .footer-menu ul.social li a.instagram {
+  background-position: 0 -190px;
+  width: 38px;
+  height: 39px;
+}
+footer .text-center {
+  color: #846c67;
+}
+footer .text-center img {
+  padding-top: 76px;
+  padding-bottom: 24px;
+}
+footer .text-center p {
+  padding-bottom: 53px;
+}
