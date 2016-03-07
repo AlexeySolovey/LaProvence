@@ -1,0 +1,273 @@
+
+@menuColor: #574340;
+@greyTextColor: #846c67;
+@pinkTextColor: #FF8888;
+@OpenSansFont: OpenSans;
+@SansationFont: sansationRegular ;
+/*main*/
+body{
+	background: #F6F6F6 !important;
+}
+header,footer{
+	background: @menuColor;
+}
+p{
+	margin: 0 !important;
+}
+.container{
+	max-width: 1030px;
+}
+.fb, .odnoklasniki, .instagram, .bag, .serch, .vk{
+	background: url(../images/sprites.png) no-repeat;
+}
+.ellipses{
+	background: url(../images/sprites.png);
+	background-position: 0 -54px ;
+	width: 100%;
+	height: 13px;
+}
+/*header*/
+header {
+	a{
+		color: @greyTextColor;
+		&:hover{
+			text-decoration: none;
+			color: @pinkTextColor;
+		}
+		img.logo{
+			margin: 25px 0 20px 0;
+			width: 300px;
+			height: 45px;
+		}
+	}
+	button{
+		border: 0;
+		position: absolute;
+		&.serch{
+			width: 15px;
+			height: 15px;
+			background-position: 0 0;
+			cursor: pointer;
+			margin-left: 10px;
+		}
+		&.bag{
+			background-position: 0 -20px ;
+			width: 21px;
+			height: 24px;
+		}
+	}
+	p {
+		color: @pinkTextColor;
+	}
+	#responsive-menu {
+		padding-top: 40px;
+		padding-bottom: 8px;
+		.nav > li > a{
+			font-size: 18px;
+			padding: 6px 25px 0 0;
+			&:hover{
+				background:@menuColor;
+			}
+		}
+	}	
+	.container .row .container{
+		padding: 0;
+	}
+	.login {
+		padding-top: 25px;
+		padding-right: 30px;
+		a.register:after {
+			content:"/";
+			color: @greyTextColor;
+		}
+	}
+	.disk-shope{
+		font-size: 18px;
+		font-weight: lighter;
+	}
+	.navbar .navbar-right a.enter{
+		border: 2px solid @greyTextColor;
+		padding: 10px 30px 10px 10px;
+		font-size: 18px;
+		&:hover{
+			color:@greyTextColor;
+		}
+		.basket{
+			padding-right: 17px;
+		}
+		.basket:hover{
+			color:@greyTextColor;
+		}
+		.count, .sum {
+			color: @pinkTextColor;
+			padding-right: 10px;
+		}
+	}
+}
+.ellipses{
+	background-position: 0 -54px;
+	margin-top: -7px;
+	width: 100%;
+	height: 13px;
+	position: relative;
+}
+/*baner*/
+.baner {
+	display: table;
+	width: 100%;
+	height: 310px;
+	background: url(../images/baner.png);
+	background-size: cover;
+	overflow: hidden;
+	margin-top: -7px;
+	div.text{ 
+		font-size: 27px;
+		color: #fff;
+		display: table-cell;
+		vertical-align: middle;
+		height: 310px;
+	}
+	div.per_sent{
+		font-size: 150px;
+		color: #fff;
+		height: 310px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+/*Big content*/
+.discount{
+	padding-top: 18px;
+}
+.news, .discount {
+	padding-left: 6px;
+	padding-right: 6px;
+	color: @greyTextColor;
+	h4{
+		padding-top: 20px;
+		padding-bottom: 19px;
+		font-size: 22px;
+		font-weight: lighter;
+		letter-spacing: 5px;
+	}
+	.col-xs-3{
+		padding-right: 9px;
+		padding-left: 9px;
+		.information{
+			background: #fff;
+			text-align: center;
+			p.describe{
+				font-family: @SansationFont;
+				font-size: 17px;
+				padding-top: 22px;
+				padding-bottom: 6px;
+			}
+			p.size{
+				font-size: 13px;
+				padding-bottom: 18px;
+			}
+			span{
+				font-size: 17px;
+				&.past-price{
+					text-decoration: line-through;
+				}
+				&.now-price{
+					color: @pinkTextColor;
+				}
+			}
+			button{
+				margin-top: 27px;
+				margin-bottom: 23px;
+				padding: 5px 14px;
+				font-size: 13px;
+				border: 0;
+				background: @pinkTextColor;
+				color: #fff;
+			}
+		}
+	}
+}
+/*Text block*/
+.text {
+	color: @greyTextColor;
+	font-family: @OpenSansFont;
+	h2{
+		font-size: 26px;
+		text-align: center;
+		padding: 68px 175px 30px 175px;
+	}
+	p{
+		font-size: 17px;
+		text-align: justify;
+	}
+}
+/* footer*/
+footer {
+	margin-top: 64px;
+	.footer-menu{
+		padding-top: 70px;
+		ul {
+			font-size: 17px;
+			padding: 0;
+			&.first-footer-menu,
+			&.second-footer-menu,
+			&.contact{
+				margin-left: -15px;
+			}
+			li{
+			list-style-type: none;
+			}
+			a{
+				color: @greyTextColor;
+
+				text-decoration: none;
+				display: block;
+				&:hover{
+					color:@pinkTextColor;
+					text-decoration: none;
+				}
+			}
+			&.contact li{
+				color: @greyTextColor;
+
+			}
+			&.social {
+				margin-left: -30px;
+				li{
+					display: inline-block;
+					padding-right: 4px;
+					a.vk{
+						background-position: 0 -70px ;
+						width: 39px;
+						height: 39px;
+					}
+					a.fb{
+						background-position: 0 -110px ;
+						width: 39px;
+						height: 39px;
+					}
+					a.odnoklasniki{
+						background-position: 0 -150px ;
+						width: 39px;
+						height: 39px;
+					}
+					a.instagram{
+						background-position: 0 -190px ;
+						width: 38px;
+						height: 39px;
+					}
+				}
+			}
+		}
+	}
+	.text-center{
+		color: @greyTextColor;
+		img{
+			padding-top: 76px;
+			padding-bottom: 24px;
+		}
+		p{
+			padding-bottom: 53px;
+		}
+	}
+}

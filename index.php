@@ -2,11 +2,13 @@
 <html>
 <head>
 	<title>La provance</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/mobile.css" rel="stylesheet" media="only screen and (max-width:480px)" />
 	<link href="css/style.css" rel="stylesheet" media="screen">
 	<link href="css/hover.css" rel="stylesheet" media="screen">
 	<link href="css/fonts.css" rel="stylesheet" media="screen">
 	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
 </head>
 <body>
 <header>
