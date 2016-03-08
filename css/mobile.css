@@ -108,6 +108,7 @@ button.bag {
   border-color: #ff8888;
 }
 .navbar .navbar-right {
+  display: none;
   margin-top: 4px;
 }
 .navbar .navbar-right a.enter {
@@ -128,10 +129,6 @@ button.bag {
 .navbar .navbar-right a.enter .sum {
   color: #ff8888;
   padding-right: 10px;
-}
-#responsive-menu {
-  padding-top: 40px;
-  padding-bottom: 8px;
 }
 #responsive-menu .nav > li > a {
   font-size: 18px;
@@ -250,6 +247,7 @@ button.bag {
 /* footer*/
 footer {
   margin-top: 64px;
+  height: 373px;
 }
 footer .footer-menu {
   padding-top: 70px;

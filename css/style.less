@@ -5,8 +5,9 @@
 @OpenSansFont: OpenSans;
 @SansationFont: sansationRegular ;
 /*main*/
-body{
+html,body{
 	background: #F6F6F6 !important;
+	height: 100%;
 }
 header,footer{
 	background: @menuColor;
@@ -16,7 +17,7 @@ p{
 }
 .container{
 	max-width: 1030px;
-	min-width: 300px;
+	min-width: 600px;
 }
 .fb, .odnoklasniki, .instagram, .bag, .serch, .vk{
 	background: url(../images/sprites.png) no-repeat;
@@ -26,6 +27,10 @@ p{
 	background-position: 0 -54px ;
 	width: 100%;
 	height: 13px;
+}
+.wrap{
+	min-height: 100%;
+
 }
 /*header*/
 header {
@@ -227,6 +232,7 @@ button{
 .text {
 	color: @greyTextColor;
 	font-family: @OpenSansFont;
+	padding-bottom: 64px;
 	h2{
 		font-size: 26px;
 		text-align: center;
@@ -239,7 +245,9 @@ button{
 }
 /* footer*/
 footer {
-	margin-top: 64px;
+	height: 360px;
+	margin-top: -360px;
+	overflow: hidden;
 	.footer-menu{
 		padding-top: 70px;
 		ul {
@@ -265,7 +273,6 @@ footer {
 			}
 			&.contact li{
 				color: @greyTextColor;
-
 			}
 			&.social {
 				margin-left: -30px;
@@ -306,4 +313,7 @@ footer {
 			padding-bottom: 53px;
 		}
 	}
+}
+.bottom-layout{
+	height: 360px;
 }
