@@ -114,6 +114,7 @@ button{
 	}
 	.navbar-right{
 		margin-top: 4px;
+		display: block;
 		a.enter{
 			border: 2px solid @greyTextColor;
 			padding: 10px 30px 10px 10px;
@@ -137,11 +138,14 @@ button{
 #responsive-menu {
 	padding-top: 40px;
 	padding-bottom: 8px;
-	.nav > li > a{
-		font-size: 18px;
-		padding: 6px 25px 0 0;
-		&:hover{
-			background:@menuColor;
+	ul {
+			margin-left: -15px;
+			.nav > li > a{
+			font-size: 18px;
+			padding: 6px 25px 0 0;
+			&:hover{
+				background:@menuColor;
+			}
 		}
 	}
 }
@@ -232,7 +236,9 @@ button{
 .text {
 	color: @greyTextColor;
 	font-family: @OpenSansFont;
-	padding-bottom: 64px;
+	div{
+		padding-bottom: 64px;
+	}
 	h2{
 		font-size: 26px;
 		text-align: center;
@@ -250,6 +256,7 @@ footer {
 	overflow: hidden;
 	.footer-menu{
 		padding-top: 70px;
+		padding-left: 15px;
 		ul {
 			font-size: 17px;
 			padding: 0;

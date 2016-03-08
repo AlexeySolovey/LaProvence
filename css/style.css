@@ -114,6 +114,7 @@ button.bag {
 }
 .navbar .navbar-right {
   margin-top: 4px;
+  display: block;
 }
 .navbar .navbar-right a.enter {
   border: 2px solid #846c67;
@@ -138,11 +139,14 @@ button.bag {
   padding-top: 40px;
   padding-bottom: 8px;
 }
-#responsive-menu .nav > li > a {
+#responsive-menu ul {
+  margin-left: -15px;
+}
+#responsive-menu ul .nav > li > a {
   font-size: 18px;
   padding: 6px 25px 0 0;
 }
-#responsive-menu .nav > li > a:hover {
+#responsive-menu ul .nav > li > a:hover {
   background: #574340;
 }
 .ellipses {
@@ -242,6 +246,8 @@ button.bag {
 .text {
   color: #846c67;
   font-family: OpenSans;
+}
+.text div {
   padding-bottom: 64px;
 }
 .text h2 {
@@ -261,6 +267,7 @@ footer {
 }
 footer .footer-menu {
   padding-top: 70px;
+  padding-left: 15px;
 }
 footer .footer-menu ul {
   font-size: 17px;
