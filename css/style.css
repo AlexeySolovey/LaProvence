@@ -4,12 +4,23 @@ body {
   background: #F6F6F6 !important;
   height: 100%;
 }
+a {
+  color: #846c67;
+}
 header,
 footer {
   background: #574340;
 }
+h2 {
+  color: #846c67 !important;
+  font-family: OpenSans-Semibold !important;
+  font-size: 19.3px !important;
+}
 p {
   margin: 0 !important;
+}
+span {
+  color: #846c67;
 }
 .container {
   max-width: 1030px;
@@ -332,4 +343,80 @@ footer .text-center p {
 }
 .bottom-layout {
   height: 360px;
+}
+/******************************************
+				catalog
+*******************************************/
+/*main*/
+.bread-crumbs div {
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+.bread-crumbs div a {
+  color: #846c67;
+  font-family: OpenSans;
+  text-decoration: underline;
+  padding-right: 20px;
+}
+.bread-crumbs div a:hover {
+  color: #ff8888;
+}
+.bread-crumbs div a:hover:after {
+  color: #846c67;
+}
+.bread-crumbs div a:after {
+  content: ">";
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+}
+/*catalog menu*/
+menu .panel {
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+}
+menu .panel a {
+  color: #846c67;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: OpenSans-Semibold;
+}
+menu .panel a:hover {
+  color: #ff8888;
+}
+menu .panel ul {
+  padding-top: 6px;
+  padding-bottom: 10px;
+}
+menu .panel ul li {
+  list-style-type: none;
+  line-height: 1.8;
+}
+menu .panel ul li a span {
+  color: #846c67;
+  text-decoration: none;
+  font-family: OpenSans;
+  font-size: 15px;
+}
+menu .panel ul li a span:hover {
+  color: #ff8888;
+}
+menu .panel .panel-heading {
+  padding: 13px 0;
+}
+/*catalog - content*/
+.catalog h2 {
+  padding-bottom: 12px;
+}
+.goods {
+  background-color: #fff;
+  height: 171px;
+}
+.goods img {
+  height: 171px;
+  width: 222px;
+  float: left;
 }

@@ -3,17 +3,29 @@
 @greyTextColor: #846c67;
 @pinkTextColor: #FF8888;
 @OpenSansFont: OpenSans;
+@OpenSansSemibold: OpenSans-Semibold;
 @SansationFont: sansationRegular ;
 /*main*/
 html,body{
 	background: #F6F6F6 !important;
 	height: 100%;
 }
+a{
+	color: @greyTextColor;
+}
 header,footer{
 	background: @menuColor;
 }
+h2{
+	color: @greyTextColor !important;
+	font-family: @OpenSansSemibold !important;
+	font-size: 19.3px !important;
+}
 p{
 	margin: 0 !important;
+}
+span{
+	color: @greyTextColor;
 }
 .container{
 	max-width: 1030px;
@@ -324,3 +336,101 @@ footer {
 .bottom-layout{
 	height: 360px;
 }
+
+
+/******************************************
+				catalog
+*******************************************/
+/*main*/
+.bread-crumbs div > {
+	padding-top: 6px;
+	padding-bottom: 4px;
+	a{
+		color: @greyTextColor;
+		font-family: @OpenSansFont;
+		text-decoration: underline;
+		padding-right: 20px;
+		&:hover{
+			color:@pinkTextColor;
+			&:after{
+				color:@greyTextColor;
+			}
+		}
+		&:after{
+			content: ">";
+			padding-left: 10px;
+			padding-right: 10px;
+			position: absolute;
+		}
+	}
+}
+
+/*catalog menu*/
+menu {
+	.panel{
+		margin-bottom: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: 0;
+		box-shadow: 0;
+		a{
+			color: @greyTextColor;
+			text-decoration: none;
+			font-size: 15px;
+			font-family: @OpenSansSemibold;
+			&:hover{
+				color:@pinkTextColor;
+			}
+		}
+		ul {
+			padding-top: 6px;
+			padding-bottom: 10px;
+			li{
+				list-style-type: none;
+				line-height: 1.8;
+				a{ 
+					span{
+						color: @greyTextColor;
+						text-decoration: none;
+						font-family: @OpenSansFont;
+						font-size: 15px;
+
+						&:hover{
+							color:@pinkTextColor;
+						}
+
+					}
+					&:hover span{
+
+					}
+				}
+			}
+		}
+		.panel-heading{
+			padding: 13px 0;
+		}
+	}
+}
+/*catalog - content*/
+.catalog h2{
+	padding-bottom: 12px;
+}
+	.goods{
+		background-color: #fff;
+		height: 171px;
+		img{
+			height:171px;
+			width: 222px;
+			float: left;
+		}
+	}
+
+
+
+
+
+
+
+/******************************************
+				next
+*******************************************/
