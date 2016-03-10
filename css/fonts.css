@@ -7,6 +7,10 @@
 	font-family: OpenSans-Semibold;
 	src: url(../fonts/OpenSans-Semibold.ttf);
 }
+@font-face {
+	font-family: OpenSans-Regular;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
 /*Sansation*/
 @font-face {
     font-family: sansationRegular;

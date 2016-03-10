@@ -4,6 +4,7 @@
 @pinkTextColor: #FF8888;
 @lightGreyColor: #BDBDBD;
 @OpenSansFont: OpenSans;
+@OpenSansRegular: OpenSans-Regular;
 @OpenSansSemibold: OpenSans-Semibold;
 @SansationFont: sansationRegular ;
 /*main*/
@@ -80,7 +81,7 @@ header {
 		font-weight: lighter;
 	}
 }
-/*menu*/
+/*nav menu*/
 button{
 	border: 0;
 	position: absolute;
@@ -174,6 +175,261 @@ button{
 	height: 13px;
 	position: relative;
 }
+/*bread crumbs*/
+.bread-crumbs div > {
+	padding-top: 6px;
+	a{
+		color: @greyTextColor;
+		font-family: @OpenSansFont;
+		text-decoration: underline;
+		padding-right: 20px;
+		&:hover{
+			color:@pinkTextColor;
+			&:after{
+				color:@greyTextColor;
+			}
+		}
+		&:after{
+			content: ">";
+			padding-left: 10px;
+			padding-right: 10px;
+			position: absolute;
+		}
+	}
+}
+/*widggets block*/
+section .col-xs-2{
+	padding-left: 0;
+	.registration-block{
+		margin-top: 55px;
+		height: 210px;
+		background-color: #fff;
+		margin-bottom: 20px;
+		padding:10px;
+		form{
+			margin-bottom: 17px;
+			.form-group{
+				margin-bottom: 8px;
+				label{
+					font-family: @OpenSansSemibold;
+					font-size: 13px;
+					color: @greyTextColor;
+					margin-bottom: 0;
+				}
+				input{
+					width: 100%;
+					height: 20px;
+					&:focus{
+						outline:red;
+					}
+				}
+			}
+		}
+		a{
+			color: @lightGreyColor;
+			text-decoration: underline;
+			font-family: @OpenSansSemibold;
+			font-size: 13px;
+			&:hover{
+				color:@pinkTextColor;
+			}
+		}
+		button{
+			padding: 5px 14px;
+			background: @greyTextColor;
+			color: #fff;
+			margin-top: 8px;
+			font-size: 12px;
+			font-family: @OpenSansSemibold;
+			&.hvr-outline-out:before{
+				border:2px solid @greyTextColor;
+			}
+		}
+	}
+	.coll-block{
+		background-color: #fff;
+		margin-bottom: 20px;
+		padding:10px 10px 1px 10px;
+		form{
+			margin-bottom: 17px;
+			.form-group{
+				margin-bottom: 8px;
+				label{
+					font-family: @OpenSansSemibold;
+					font-size: 13px;
+					color: @greyTextColor;
+					margin-bottom: 0;
+				}
+				input{
+					width: 100%;
+					height: 20px;
+					&:focus{
+						outline:none;
+					}
+				}
+			}
+		}
+		button{
+			padding: 5px 0;
+			background: @greyTextColor;
+			width: 100%;
+			color: #fff;
+			margin-top: 8px;
+			font-size: 12px;
+			font-family: @OpenSansSemibold;
+			text-transform: uppercase;
+			&.hvr-outline-out:before{
+				border:2px solid @greyTextColor;
+			}
+		}
+		img {
+			margin-top: 3px;
+			margin-bottom: 5px;
+		}
+		p{
+			color: #67DC00;
+			font-family: @OpenSansSemibold;
+			font-size: 15px;
+			line-height: 1.333333;
+			padding-bottom: 8px;
+		}
+	}
+	.news-block{
+		padding: 10px;
+		background-color: #fff;
+		margin-bottom: 20px;
+		a{
+			color: @lightGreyColor;
+			text-decoration: underline;
+			font-size: 13px;
+			margin-top: 20px;
+		}
+		h4{
+			color: @greyTextColor !important;
+			text-align: center;
+		}
+		.event{
+			padding-top: 10px;
+			padding-bottom: 5px;
+			span{
+				color: @lightGreyColor;
+			}
+			p{
+				color:@greyTextColor;
+				padding: 2px 0 0;
+				line-height: 1.43;
+			}
+			a{
+				color: @pinkTextColor;
+				text-decoration: underline;
+			}
+		}
+		.other-news{
+			padding-top: 10px;
+			text-align: center;
+		}
+	}
+}
+/*pagination*/
+ul.paginat {
+	padding-top: 35px;
+	padding-bottom: 44px;
+	li{
+		display: inline;
+		padding-right: 18px;
+		a{
+			color: @greyTextColor;
+			text-decoration: none;
+			font-family: @OpenSansSemibold;
+			font-size: 13px;
+			&:hover{
+				color:@pinkTextColor;
+			}
+		}
+		.active{
+			color: @pinkTextColor;
+		}
+	}
+}
+/* footer*/
+footer {
+	height: 360px;
+	margin-top: -360px;
+	overflow: hidden;
+	.footer-menu{
+		padding-top: 70px;
+		padding-left: 15px;
+		ul {
+			font-size: 17px;
+			padding: 0;
+			&.first-footer-menu,
+			&.second-footer-menu,
+			&.contact{
+				margin-left: -15px;
+			}
+			li{
+			list-style-type: none;
+			}
+			a{
+				color: @greyTextColor;
+
+				text-decoration: none;
+				display: block;
+				&:hover{
+					color:@pinkTextColor;
+					text-decoration: none;
+				}
+			}
+			&.contact li{
+				color: @greyTextColor;
+			}
+			&.social {
+				margin-left: -30px;
+				li{
+					display: inline-block;
+					padding-right: 4px;
+					a.vk{
+						background-position: 0 -70px ;
+						width: 39px;
+						height: 39px;
+					}
+					a.fb{
+						background-position: 0 -110px ;
+						width: 39px;
+						height: 39px;
+					}
+					a.odnoklasniki{
+						background-position: 0 -150px ;
+						width: 39px;
+						height: 39px;
+					}
+					a.instagram{
+						background-position: 0 -190px ;
+						width: 38px;
+						height: 39px;
+					}
+				}
+			}
+		}
+	}
+	.text-center{
+		color: @greyTextColor;
+		img{
+			padding-top: 76px;
+			padding-bottom: 24px;
+		}
+		p{
+			padding-bottom: 53px;
+		}
+	}
+}
+.bottom-layout{
+	height: 360px;
+}
+
+/****************************
+			main page
+****************************/
 /*baner*/
 .baner {
 	display: table;
@@ -267,109 +523,10 @@ button{
 		text-align: justify;
 	}
 }
-/* footer*/
-footer {
-	height: 360px;
-	margin-top: -360px;
-	overflow: hidden;
-	.footer-menu{
-		padding-top: 70px;
-		padding-left: 15px;
-		ul {
-			font-size: 17px;
-			padding: 0;
-			&.first-footer-menu,
-			&.second-footer-menu,
-			&.contact{
-				margin-left: -15px;
-			}
-			li{
-			list-style-type: none;
-			}
-			a{
-				color: @greyTextColor;
-
-				text-decoration: none;
-				display: block;
-				&:hover{
-					color:@pinkTextColor;
-					text-decoration: none;
-				}
-			}
-			&.contact li{
-				color: @greyTextColor;
-			}
-			&.social {
-				margin-left: -30px;
-				li{
-					display: inline-block;
-					padding-right: 4px;
-					a.vk{
-						background-position: 0 -70px ;
-						width: 39px;
-						height: 39px;
-					}
-					a.fb{
-						background-position: 0 -110px ;
-						width: 39px;
-						height: 39px;
-					}
-					a.odnoklasniki{
-						background-position: 0 -150px ;
-						width: 39px;
-						height: 39px;
-					}
-					a.instagram{
-						background-position: 0 -190px ;
-						width: 38px;
-						height: 39px;
-					}
-				}
-			}
-		}
-	}
-	.text-center{
-		color: @greyTextColor;
-		img{
-			padding-top: 76px;
-			padding-bottom: 24px;
-		}
-		p{
-			padding-bottom: 53px;
-		}
-	}
-}
-.bottom-layout{
-	height: 360px;
-}
-
 
 /******************************************
 				catalog
 *******************************************/
-/*main*/
-.bread-crumbs div > {
-	padding-top: 6px;
-	a{
-		color: @greyTextColor;
-		font-family: @OpenSansFont;
-		text-decoration: underline;
-		padding-right: 20px;
-		&:hover{
-			color:@pinkTextColor;
-			&:after{
-				color:@greyTextColor;
-			}
-		}
-		&:after{
-			content: ">";
-			padding-left: 10px;
-			padding-right: 10px;
-			position: absolute;
-		}
-	}
-}
-
 /*catalog menu*/
 menu {
 	#accordion{
@@ -422,199 +579,94 @@ menu {
 		padding-bottom: 12px;
 		margin-top: 13px;
 	}
-	.goods{
-		background-color: #fff;
+	.goods {
 		height: 171px;
-		margin-bottom: 20px;
 		img{
 			height:171px;
 			width: 247px;
-			float: left;
-			padding-right: 25px;
 		}
-		.information{
-			color: @greyTextColor;
-			p.describe{
-				font-family: @SansationFont;
-				font-size: 15px;
-				padding-top: 16px;
-				padding-bottom: 11px;
-			}
-			p.size{
-				font-size: 13px;
-			}
-			span{
-				font-size: 17px;
-				&.past-price{
-					text-decoration: line-through;
-					padding-right: 10px;
-				}
-				&.now-price{
-					color: @pinkTextColor;
-				}
-			}
-			button{
-				margin: 18px 0 23px 23px;
-				padding: 5px 14px;
-				font-size: 13px;
-				border: 0;
-				background: @pinkTextColor;
-				color: #fff;
-			}
+		p.describe{
+			padding-top: 16px;
+			padding-bottom: 11px;
+		}
+		button{
+			margin: 18px 0 23px 23px;
 		}
 	}
 }
-/*widggets block*/
-section .col-xs-2{
-	padding-left: 0;
-	.registration-block{
-		margin-top: 55px;
-		height: 210px;
-		background-color: #fff;
-		margin-bottom: 20px;
-		padding:10px;
-		form{
-			margin-bottom: 17px;
-			.form-group{
-				margin-bottom: 8px;
-				label{
-					font-family: @OpenSansSemibold;
-					font-size: 13px;
-					color: @greyTextColor;
-					margin-bottom: 0;
-				}
-				input{
-					width: 100%;
-					height: 20px;
-					&:focus{
-						outline:red;
-					}
-				}
-			}
+.goods{
+	background-color: #fff;
+	margin-bottom: 20px;
+	img{
+		float: left;
+		padding-right: 25px;
+	}
+	.information{
+		color: @greyTextColor;
+		p.describe{
+			font-family: @SansationFont;
+			font-size: 15px;
 		}
-		a{
-			color: @lightGreyColor;
-			text-decoration: underline;
-			font-family: @OpenSansSemibold;
+		p.size{
 			font-size: 13px;
-			&:hover{
-				color:@pinkTextColor;
+		}
+		span{
+			font-size: 17px;
+			&.past-price{
+				text-decoration: line-through;
+				padding-right: 5px;
+			}
+			&.now-price{
+				color: @pinkTextColor;
 			}
 		}
 		button{
 			padding: 5px 14px;
-			background: @greyTextColor;
+			font-size: 13px;
+			border: 0;
+			background: @pinkTextColor;
 			color: #fff;
-			margin-top: 8px;
-			font-size: 12px;
-			font-family: @OpenSansSemibold;
-			&.hvr-outline-out:before{
-				border:2px solid @greyTextColor;
-			}
 		}
 	}
-	.coll-block{
-		background-color: #fff;
-		margin-bottom: 20px;
-		padding:10px 10px 1px 10px;
-		form{
-			margin-bottom: 17px;
-			.form-group{
-				margin-bottom: 8px;
-				label{
-					font-family: @OpenSansSemibold;
-					font-size: 13px;
-					color: @greyTextColor;
-					margin-bottom: 0;
-				}
-				input{
-					width: 100%;
-					height: 20px;
-					&:focus{
-						outline:none;
-					}
-				}
-			}
+}
+/******************************************
+				card
+*******************************************/
+.card{
+	h2{
+		padding-bottom: 12px;
+		margin-top: 10px;
+		font-size: 14px !important;
+		font-family: @OpenSansRegular !important;
+	}
+	.goods {
+		img{
+			width: 324px;
+			height: 232px;
+		}
+		p.describe{
+			padding-top: 16px;
+			padding-bottom: 30px;
+		}
+		p.fabric{
+			padding-top: 3px;
+			padding-bottom: 24px;
 		}
 		button{
-			padding: 5px 0;
-			background: @greyTextColor;
-			width: 100%;
-			color: #fff;
-			margin-top: 8px;
-			font-size: 12px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		.detail{
+			padding: 0 18px 20px 18px;
+			color: #7A7A7A;
 			font-family: @OpenSansSemibold;
-			text-transform: uppercase;
-			&.hvr-outline-out:before{
-				border:2px solid @greyTextColor;
-			}
-		}
-		img {
-			margin-top: 3px;
-			margin-bottom: 5px;
-		}
-	}
-	.news-block{
-		padding: 10px;
-		background-color: #fff;
-		margin-bottom: 20px;
-		a{
-			color: @lightGreyColor;
-			text-decoration: underline;
-			font-size: 13px;
-			margin-top: 20px;
-		}
-		h4{
-			color: @greyTextColor !important;
-			text-align: center;
-		}
-		.event{
-			padding-top: 10px;
-			padding-bottom: 5px;
-			span{
-				color: @lightGreyColor;
+			h5{
+				font-size: 15px;
+				padding-bottom: 2px;
 			}
 			p{
-				color:@greyTextColor;
-				padding: 2px 0 0;
-				line-height: 1.43;
+				font-size: 14.3px;
 			}
-			a{
-				color: @pinkTextColor;
-				text-decoration: underline;
-			}
-		}
-		.other-news{
-			padding-top: 10px;
-			text-align: center;
 		}
 	}
 }
-
-/*pagination*/
-
-ul.paginat {
-	padding-top: 35px;
-	padding-bottom: 44px;
-	li{
-		display: inline;
-		padding-right: 18px;
-		a{
-			color: @greyTextColor;
-			text-decoration: none;
-			font-family: @OpenSansSemibold;
-			font-size: 13px;
-			&:hover{
-				color:@pinkTextColor;
-			}
-		}
-		.active{
-			color: @pinkTextColor;
-		}
-	}
-}
-
-
-/******************************************
-				next
-*******************************************/
