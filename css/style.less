@@ -2,6 +2,7 @@
 @menuColor: #574340;
 @greyTextColor: #846c67;
 @pinkTextColor: #FF8888;
+@lightGreyColor: #BDBDBD;
 @OpenSansFont: OpenSans;
 @OpenSansSemibold: OpenSans-Semibold;
 @SansationFont: sansationRegular ;
@@ -16,10 +17,15 @@ a{
 header,footer{
 	background: @menuColor;
 }
+h2,h4{
+	font-family: @OpenSansSemibold !important;
+}	
 h2{
 	color: @greyTextColor !important;
-	font-family: @OpenSansSemibold !important;
 	font-size: 19.3px !important;
+}
+h4{
+	font-size: 15px !important;
 }
 p{
 	margin: 0 !important;
@@ -344,7 +350,6 @@ footer {
 /*main*/
 .bread-crumbs div > {
 	padding-top: 6px;
-	padding-bottom: 4px;
 	a{
 		color: @greyTextColor;
 		font-family: @OpenSansFont;
@@ -367,6 +372,9 @@ footer {
 
 /*catalog menu*/
 menu {
+	#accordion{
+		margin-top: -13px;
+	}
 	.panel{
 		margin-bottom: 0;
 		background-color: transparent;
@@ -394,14 +402,11 @@ menu {
 						text-decoration: none;
 						font-family: @OpenSansFont;
 						font-size: 15px;
-
 						&:hover{
 							color:@pinkTextColor;
 						}
-
 					}
 					&:hover span{
-
 					}
 				}
 			}
@@ -412,23 +417,202 @@ menu {
 	}
 }
 /*catalog - content*/
-.catalog h2{
-	padding-bottom: 12px;
-}
+.catalog {
+	h2{
+		padding-bottom: 12px;
+		margin-top: 13px;
+	}
 	.goods{
 		background-color: #fff;
 		height: 171px;
+		margin-bottom: 20px;
 		img{
 			height:171px;
-			width: 222px;
+			width: 247px;
 			float: left;
+			padding-right: 25px;
+		}
+		.information{
+			color: @greyTextColor;
+			p.describe{
+				font-family: @SansationFont;
+				font-size: 15px;
+				padding-top: 16px;
+				padding-bottom: 11px;
+			}
+			p.size{
+				font-size: 13px;
+			}
+			span{
+				font-size: 17px;
+				&.past-price{
+					text-decoration: line-through;
+					padding-right: 10px;
+				}
+				&.now-price{
+					color: @pinkTextColor;
+				}
+			}
+			button{
+				margin: 18px 0 23px 23px;
+				padding: 5px 14px;
+				font-size: 13px;
+				border: 0;
+				background: @pinkTextColor;
+				color: #fff;
+			}
 		}
 	}
+}
+/*widggets block*/
+section .col-xs-2{
+	padding-left: 0;
+	.registration-block{
+		margin-top: 55px;
+		height: 210px;
+		background-color: #fff;
+		margin-bottom: 20px;
+		padding:10px;
+		form{
+			margin-bottom: 17px;
+			.form-group{
+				margin-bottom: 8px;
+				label{
+					font-family: @OpenSansSemibold;
+					font-size: 13px;
+					color: @greyTextColor;
+					margin-bottom: 0;
+				}
+				input{
+					width: 100%;
+					height: 20px;
+					&:focus{
+						outline:red;
+					}
+				}
+			}
+		}
+		a{
+			color: @lightGreyColor;
+			text-decoration: underline;
+			font-family: @OpenSansSemibold;
+			font-size: 13px;
+			&:hover{
+				color:@pinkTextColor;
+			}
+		}
+		button{
+			padding: 5px 14px;
+			background: @greyTextColor;
+			color: #fff;
+			margin-top: 8px;
+			font-size: 12px;
+			font-family: @OpenSansSemibold;
+			&.hvr-outline-out:before{
+				border:2px solid @greyTextColor;
+			}
+		}
+	}
+	.coll-block{
+		background-color: #fff;
+		margin-bottom: 20px;
+		padding:10px 10px 1px 10px;
+		form{
+			margin-bottom: 17px;
+			.form-group{
+				margin-bottom: 8px;
+				label{
+					font-family: @OpenSansSemibold;
+					font-size: 13px;
+					color: @greyTextColor;
+					margin-bottom: 0;
+				}
+				input{
+					width: 100%;
+					height: 20px;
+					&:focus{
+						outline:none;
+					}
+				}
+			}
+		}
+		button{
+			padding: 5px 0;
+			background: @greyTextColor;
+			width: 100%;
+			color: #fff;
+			margin-top: 8px;
+			font-size: 12px;
+			font-family: @OpenSansSemibold;
+			text-transform: uppercase;
+			&.hvr-outline-out:before{
+				border:2px solid @greyTextColor;
+			}
+		}
+		img {
+			margin-top: 3px;
+			margin-bottom: 5px;
+		}
+	}
+	.news-block{
+		padding: 10px;
+		background-color: #fff;
+		margin-bottom: 20px;
+		a{
+			color: @lightGreyColor;
+			text-decoration: underline;
+			font-size: 13px;
+			margin-top: 20px;
+		}
+		h4{
+			color: @greyTextColor !important;
+			text-align: center;
+		}
+		.event{
+			padding-top: 10px;
+			padding-bottom: 5px;
+			span{
+				color: @lightGreyColor;
+			}
+			p{
+				color:@greyTextColor;
+				padding: 2px 0 0;
+				line-height: 1.43;
+			}
+			a{
+				color: @pinkTextColor;
+				text-decoration: underline;
+			}
+		}
+		.other-news{
+			padding-top: 10px;
+			text-align: center;
+		}
+	}
+}
 
+/*pagination*/
 
-
-
-
+ul.paginat {
+	padding-top: 35px;
+	padding-bottom: 44px;
+	li{
+		display: inline;
+		padding-right: 18px;
+		a{
+			color: @greyTextColor;
+			text-decoration: none;
+			font-family: @OpenSansSemibold;
+			font-size: 13px;
+			&:hover{
+				color:@pinkTextColor;
+			}
+		}
+		.active{
+			color: @pinkTextColor;
+		}
+	}
+}
 
 
 /******************************************
