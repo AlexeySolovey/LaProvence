@@ -18,7 +18,7 @@ a{
 header,footer{
 	background: @menuColor;
 }
-h2,h4{
+h2,h4, h5, p{
 	font-family: @OpenSansSemibold !important;
 }	
 h2{
@@ -197,6 +197,49 @@ button{
 		}
 	}
 }
+/*table*/
+section table{
+	background: #fff;
+	width: 100%;
+	border: 15px solid #fff;
+	tr{
+		text-align: center;
+		padding: 10px;
+		th{
+			color: #DCDCDC;
+			font-family: @OpenSansRegular;
+			font-size: 15px;
+			text-align: center;
+			padding: 0 12px 23px 0;
+		}
+		td{
+			border: 1px solid #fff;
+			padding: 9px 12px;
+			color: #BEBEBE;
+			img{
+				height: 46px;
+				width: 46px;
+			}
+			a{
+				color: #DCDCDC;
+				&:hover{
+					color:@pinkTextColor;
+					text-decoration: none;
+				}
+			}
+			span{
+				color: #BEBEBE;
+			}
+			&.together{
+				color: @pinkTextColor;
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+
+
 /*widggets block*/
 section .col-xs-2{
 	padding-left: 0;
@@ -634,7 +677,7 @@ menu {
 *******************************************/
 .card{
 	h2{
-		padding-bottom: 12px;
+		padding-bottom: 20px;
 		margin-top: 10px;
 		font-size: 14px !important;
 		font-family: @OpenSansRegular !important;
@@ -667,6 +710,22 @@ menu {
 			p{
 				font-size: 14.3px;
 			}
+		}
+	}
+}
+/******************************************
+				basket
+*******************************************/
+.basket{
+	section {
+		h2{
+			margin-top: 12px;
+		}
+		h5{
+			margin-top: 24px;
+			margin-bottom: 21px;
+			font-size: 13.4px;
+			color: @greyTextColor;
 		}
 	}
 }
