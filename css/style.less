@@ -49,7 +49,6 @@ span{
 }
 .wrap{
 	min-height: 100%;
-
 }
 /*header*/
 header {
@@ -82,7 +81,7 @@ header {
 	}
 }
 /*nav menu*/
-button{
+.navbar button, header button{
 	border: 0;
 	position: absolute;
 	&.serch{
@@ -158,8 +157,8 @@ button{
 	padding-top: 40px;
 	padding-bottom: 8px;
 	ul {
-			margin-left: -15px;
-			.nav > li > a{
+		margin-left: -15px;
+		&.nav > li > a{
 			font-size: 18px;
 			padding: 6px 25px 0 0;
 			&:hover{
@@ -206,29 +205,35 @@ section table{
 		text-align: center;
 		padding: 10px;
 		th{
-			color: #DCDCDC;
+			color: #BFBFBF;
 			font-family: @OpenSansRegular;
 			font-size: 15px;
 			text-align: center;
 			padding: 0 12px 23px 0;
+			font-weight: normal;
 		}
 		td{
 			border: 1px solid #fff;
 			padding: 9px 12px;
-			color: #BEBEBE;
+			color: @greyTextColor;
+			font-family: @OpenSansRegular;
+			font-size: 15px;
 			img{
 				height: 46px;
 				width: 46px;
 			}
 			a{
-				color: #DCDCDC;
+				color: @lightGreyColor;
 				&:hover{
 					color:@pinkTextColor;
 					text-decoration: none;
 				}
 			}
 			span{
-				color: #BEBEBE;
+				color: @greyTextColor;
+			}
+			&.discribe{
+				font-size: 13px;
 			}
 			&.together{
 				color: @pinkTextColor;
@@ -726,6 +731,50 @@ menu {
 			margin-bottom: 21px;
 			font-size: 13.4px;
 			color: @greyTextColor;
+		}
+		.continue-buy{
+			width: 50%;
+			float: left;
+			padding: 43px 60px;
+			a{
+				text-transform: uppercase;
+				font-family: @OpenSansSemibold;
+				font-size: 12px;
+				color: #BFBFBF;
+				text-decoration: underline;
+				&:before{
+					content:"";
+					background: url(../images/sprites-basket.png);
+					background-position: 0 0;
+					width: 8px;
+					height: 12px;
+					position: absolute;
+					margin-left: -15px;
+					margin-top: 5px;
+				}
+				&:hover{
+					color: @pinkTextColor;
+					&:before{
+						background-position: -13px 0;
+						width: 8px;
+						height: 11px;
+					}
+				}
+			}
+		}
+		.buy{
+			width: 50%;
+			float: right;
+			padding: 40px 47px;
+			button{
+				padding: 5px 16px;
+				font-size: 12px;
+				border: 0;
+				background: @pinkTextColor;
+				color: #fff;
+				text-transform: uppercase;
+				font-family: @OpenSansSemibold;
+			}
 		}
 	}
 }

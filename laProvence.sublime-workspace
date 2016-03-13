@@ -4,12 +4,140 @@
 		"selected_items":
 		[
 			[
-				"a",
-				"after"
+				"font",
+				"font-size"
+			],
+			[
+				"Op",
+				"OpenSansRegular"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"op",
+				"OpenSans"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"O",
+				"OpenSansSemibold"
+			],
+			[
+				"Ope",
+				"OpenSansFont"
+			],
+			[
+				"ope",
+				"OpenSansSemibold"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"pi",
+				"pinkTextColor"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin"
 			],
 			[
 				"p",
-				"padding-right"
+				"padding-top"
+			],
+			[
+				"light",
+				"lightGreyColor"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"ligh",
+				"lightGreyColor"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"Open",
+				"OpenSansSemibold"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"o",
+				"OpenSansSemibold"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"PA",
+				"padding-top"
+			],
+			[
+				"a",
+				"after"
 			],
 			[
 				"im",
@@ -20,28 +148,12 @@
 				"color"
 			],
 			[
-				"te",
-				"text-decoration"
-			],
-			[
-				"pa",
-				"padding-right"
-			],
-			[
-				"co",
-				"content"
-			],
-			[
 				"di",
 				"div	Tag"
 			],
 			[
 				"text-de",
 				"text-decoration"
-			],
-			[
-				"ma",
-				"margin-right"
 			],
 			[
 				"marg",
@@ -52,40 +164,12 @@
 				"min-width"
 			],
 			[
-				"fo",
-				"focus"
-			],
-			[
-				"bo",
-				"border"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"m",
-				"menuColor"
-			],
-			[
-				"ba",
-				"background-image"
-			],
-			[
 				"ta",
 				"table-cell"
 			],
 			[
-				"O",
-				"OpenSansFont"
-			],
-			[
 				"sa",
 				"SansationFont"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"s",
@@ -112,20 +196,12 @@
 				"margin-bottom"
 			],
 			[
-				"u",
-				"url()"
-			],
-			[
 				"li",
 				"line-height"
 			],
 			[
 				"wi",
 				"width"
-			],
-			[
-				"mar",
-				"margin-top"
 			],
 			[
 				"mi",
@@ -138,18 +214,6 @@
 			[
 				"f",
 				"float"
-			],
-			[
-				"w",
-				"width"
-			],
-			[
-				"in",
-				"inline-block"
-			],
-			[
-				"h",
-				"href	Attr"
 			],
 			[
 				"pad",
@@ -168,18 +232,34 @@
 	"buffers":
 	[
 		{
-			"file": "/C/OpenServer/domains/portfolio/portfolio/works/rabotaplus/index.html",
+			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 4463,
+				"buffer_size": 11841,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/OpenServer/domains/portfolio/portfolio/works/rabotaplus/css/style.css",
+			"file": "css/sprites-basket.css",
 			"settings":
 			{
-				"buffer_size": 4983,
+				"buffer_size": 746,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "basket.html",
+			"settings":
+			{
+				"buffer_size": 16347,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "catalog.html",
+			"settings":
+			{
+				"buffer_size": 19700,
 				"line_ending": "Windows"
 			}
 		}
@@ -220,24 +300,26 @@
 	},
 	"expanded_folders":
 	[
-		"/C/OpenServer/domains/portfolio/portfolio/works",
-		"/C/OpenServer/domains/portfolio/portfolio/works/rabotaplus",
-		"/C/OpenServer/domains/portfolio/portfolio/works/rabotaplus/css"
+		"/C/OpenServer/domains/laProvence",
+		"/C/OpenServer/domains/laProvence/css",
+		"/C/OpenServer/domains/laProvence/fonts",
+		"/C/OpenServer/domains/laProvence/images"
 	],
 	"file_history":
 	[
-		"/C/OpenServer/domains/portfolio/portfolio/works/casadar/listing/listing.php",
-		"/C/OpenServer/domains/portfolio/portfolio/works/login/index.html",
+		"/C/OpenServer/domains/laProvence/index.html",
+		"/C/OpenServer/domains/laProvence/cardOfGood.html",
+		"/C/OpenServer/domains/laProvence/catalog.html",
+		"/C/OpenServer/domains/laProvence/css/fonts.css",
 		"/C/OpenServer/domains/laProvence/css/bootstrap.css",
+		"/C/OpenServer/domains/laProvence/css/hover.css",
 		"/C/OpenServer/domains/laProvence/index.php",
 		"/C/OpenServer/domains/laProvence/css/mobile.css",
 		"/C/OpenServer/domains/laProvence/css/mobile.less",
 		"/C/OpenServer/domains/yii/yii2/composer.lock",
 		"/C/OpenServer/domains/yii/requirements.php",
 		"/C/OpenServer/domains/laProvence/test.php",
-		"/C/OpenServer/domains/laProvence/css/hover.css",
 		"/C/OpenServer/domains/laProvence/css/sprites.css",
-		"/C/OpenServer/domains/laProvence/css/fonts.css",
 		"/C/OpenServer/domains/laProvence/hover.html",
 		"/C/OpenServer/domains/laProvence/hover/css/hover.css",
 		"/C/Users/Alexey/Downloads/sprites.css",
@@ -260,7 +342,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 91.0
 	},
 	"find_in_files":
 	{
@@ -276,6 +358,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"@font-face {\n	font-family: OpenSans-Semibold;\n	src: url(../fonts/OpenSans-Semibold.ttf);\n}\n",
+			"<a href=\"cartOfGood.html\">",
+			"<a href=\"cardOfGood.html\">",
+			"panel",
 			"/******************************************\n				catelog\n*******************************************/",
 			"navbar-header",
 			"\n					<a href=\"#\"><li>Тел: 096 704 62 13</li></a>",
@@ -300,6 +386,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<a href=\"cardOfGood.html\">",
+			"<a href=\"catalog.html\">",
 			""
 		],
 		"reverse": false,
@@ -311,24 +399,88 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/OpenServer/domains/portfolio/portfolio/works/rabotaplus/index.html",
+					"file": "css/style.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4463,
+						"buffer_size": 11841,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1014,
-								1014
+								3561,
+								3561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2971.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/sprites-basket.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "basket.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14490,
+								14490
 							]
 						],
 						"settings":
@@ -337,39 +489,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 315.0,
+						"translation.y": 8730.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/OpenServer/domains/portfolio/portfolio/works/rabotaplus/css/style.css",
+					"buffer": 3,
+					"file": "catalog.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4983,
+						"buffer_size": 19700,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								376,
-								376
+								13296,
+								13314
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 180.0,
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -392,11 +544,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.346153846154,
 			1.0
 		],
 		"rows":
@@ -411,10 +570,10 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "works.sublime-project",
+	"project": "laProvence.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 176.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -444,14 +603,14 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 222.0,
 	"status_bar_visible": true,
 	"template_settings":
