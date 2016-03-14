@@ -20,6 +20,7 @@ p {
 h2 {
   color: #846c67 !important;
   font-size: 19.3px !important;
+  margin-top: 13px;
 }
 h4 {
   font-size: 15px !important;
@@ -50,6 +51,9 @@ span {
 }
 .wrap {
   min-height: 100%;
+}
+.wrap h2 {
+  margin-top: 13px;
 }
 /*header*/
 header a {
@@ -815,4 +819,18 @@ menu .panel .panel-heading {
 }
 .return a:hover {
   color: #ff8888;
+}
+/**********************************
+			registretion
+**********************************/
+.registretion label {
+  display: block;
+}
+.registretion .coll-block {
+  margin-top: 55px;
+}
+.registretion .register-block {
+  width: 100%;
+  background: #fff;
+  margin-top: 22px;
 }
