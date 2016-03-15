@@ -32,6 +32,10 @@ h4{
 }
 input{
 	padding-left: 6px;
+	border: 1px solid @lightGreyColor;
+	&:focus{
+		outline:none;
+	}
 }
 p{
 	margin: 0 !important;
@@ -39,9 +43,13 @@ p{
 span{
 	color: @greyTextColor;
 }
+.error{
+	display: block !important;
+	color: @pinkTextColor !important;
+	font-size: 13px !important;
+}
 .container{
 	max-width: 1030px;
-	min-width: 600px;
 }
 .fb, .odnoklasniki, .instagram, .bag, .serch, .vk{
 	background: url(../images/sprites.png) no-repeat;
@@ -913,6 +921,67 @@ menu {
 			}
 		}
 	}
+}
+/*cabinet*/
+.margin-cabinet{
+	padding-top: 25px !important;
+}
 
-
+/***************************************
+				Enter
+***************************************/
+.registretion{
+	.reg, .log{
+		padding: 6px 16px;
+		padding-bottom: 17px;
+		color: @greyTextColor;
+		background: #fff;
+		width: 50%;
+		border-top: 12px solid #F6F6F6;
+		button{
+			float: right;
+			padding: 5px 14px;
+			background: @greyTextColor;
+			color: #fff;
+			text-transform: uppercase;
+			margin-top: 8px;
+			font-size: 12px;
+			font-family: @OpenSansSemibold;
+			&.hvr-outline-out:before{
+				border:2px solid @greyTextColor;
+			}
+		}
+		input{
+			width: 100%;
+		}
+		label{
+			font-weight: none;
+			font-size: 13px;
+		}
+		p{
+			font-size: 12px;
+		}
+	}
+	.reg{
+		float: left;
+		border-right: 10px solid #F6F6F6;
+		p{
+			padding-top: 14px;
+			padding-bottom: 14px;
+		}
+	}
+	.log{
+		float: right;
+		border-left: 10px solid #F6F6F6;
+		a{
+			padding-top: 12px;
+			color: @lightGreyColor;
+			text-decoration: underline;
+			font-family: @OpenSansSemibold;
+			font-size: 13px;
+			&:hover{
+				color:@pinkTextColor;
+			}
+		}
+	}
 }
