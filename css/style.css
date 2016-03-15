@@ -14,7 +14,8 @@ footer {
 h2,
 h4,
 h5,
-p {
+p,
+label {
   font-family: OpenSans-Semibold !important;
 }
 h2 {
@@ -24,6 +25,9 @@ h2 {
 }
 h4 {
   font-size: 15px !important;
+}
+input {
+  padding-left: 6px;
 }
 p {
   margin: 0 !important;
@@ -823,9 +827,6 @@ menu .panel .panel-heading {
 /**********************************
 			registretion
 **********************************/
-.registretion label {
-  display: block;
-}
 .registretion .coll-block {
   margin-top: 55px;
 }
@@ -833,4 +834,66 @@ menu .panel .panel-heading {
   width: 100%;
   background: #fff;
   margin-top: 22px;
+  padding: 10px 22px 22px 22px;
+}
+.registretion .register-block button {
+  padding: 5px 14px;
+  margin: 17px -1px 14px 33px;
+  background: #846c67;
+  color: #fff;
+  font-size: 12px;
+  font-family: OpenSans-Semibold;
+  text-transform: uppercase;
+}
+.registretion .register-block button.hvr-outline-out:before {
+  border: 2px solid #846c67;
+}
+.registretion .register-block label {
+  display: block;
+  color: #ff8888;
+  font-size: 13px;
+}
+.registretion .register-block p.infor {
+  color: #bdbdbd;
+  font-size: 13px;
+}
+.registretion .register-block p.infor i {
+  color: #ff8888;
+}
+.registretion .register-block table {
+  border: 0;
+}
+.registretion .register-block table tr th {
+  text-align: left;
+  color: #846c67;
+  padding: 3px 0 7px 0;
+  font-family: OpenSans-Semibold;
+}
+.registretion .register-block table tr td {
+  text-align: left;
+  font-size: 13px;
+  font-family: OpenSans-Semibold;
+  color: #846c67;
+  padding: 7px 12px;
+}
+.registretion .register-block table tr td input {
+  width: 243px;
+  height: 20px;
+  margin-left: -150px;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #bdbdbd;
+}
+.registretion .register-block table tr td input:focus {
+  outline: none;
+}
+.registretion .register-block table tr td.margin {
+  padding-top: 25px;
+  padding-bottom: 13px;
+}
+.registretion .register-block table tr td.star:before {
+  content: "*";
+  position: absolute;
+  color: #ff8888;
+  margin-left: -10px;
 }

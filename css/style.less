@@ -19,7 +19,7 @@ a{
 header,footer{
 	background: @menuColor;
 }
-h2,h4, h5, p{
+h2,h4, h5, p, label{
 	font-family: @OpenSansSemibold !important;
 }	
 h2{
@@ -29,6 +29,9 @@ h2{
 }
 h4{
 	font-size: 15px !important;
+}
+input{
+	padding-left: 6px;
 }
 p{
 	margin: 0 !important;
@@ -836,9 +839,6 @@ menu {
 			registretion
 **********************************/
 .registretion{
-	label{
-		display: block;
-	}
 	.coll-block{
 		margin-top: 55px;
 	}
@@ -846,6 +846,73 @@ menu {
 		width: 100%;
 		background: #fff;
 		margin-top: 22px;
+		padding: 10px 22px 22px 22px;
+		button{
+			padding: 5px 14px;
+			margin: 17px -1px 14px 33px;
+			background: @greyTextColor;
+			color: #fff;
+			font-size: 12px;
+			font-family: @OpenSansSemibold;
+			text-transform: uppercase;
+			&.hvr-outline-out:before{
+				border:2px solid @greyTextColor;
+			}
+		}
+		label{
+			display: block;
+			color: @pinkTextColor;
+			font-size: 13px;
+		}
+		p.infor{
+			color: @lightGreyColor;
+			font-size: 13px;
+			i{
+				color: @pinkTextColor;
+			}
+		}
+		table {
+			border: 0;
+			tr{
+				th{
+					text-align: left;
+					color: @greyTextColor;
+					padding: 3px 0 7px 0;
+					font-family: @OpenSansSemibold;
+				}
+				td{
+					text-align: left;
+					font-size: 13px;
+					font-family: @OpenSansSemibold;
+					color: @greyTextColor;
+					padding: 7px 12px;
+					input{
+						width: 243px;
+						height: 20px;
+						margin-left: -150px;
+						outline:none;
+						box-shadow: none;
+						border: 1px solid @lightGreyColor;
+						&:focus{
+							outline:none;
+						}
+					}
+					&.margin{
+						padding-top: 25px;
+						padding-bottom: 13px;
+					}
+					&.star{
+						&:before{
+							content: "*";
+							position: absolute;
+							color: @pinkTextColor;
+							margin-left: -10px;
+						}
+					}
+				}
+			}
+		}
 	}
+
 
 }
