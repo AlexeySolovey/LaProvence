@@ -17,6 +17,7 @@ h5,
 p,
 label {
   font-family: OpenSans-Semibold !important;
+  color: #846c67 !important;
 }
 h2 {
   color: #846c67 !important;
@@ -789,7 +790,6 @@ menu .panel .panel-heading {
 /*accept order*/
 .order-message {
   width: 460px;
-  height: 140px;
   background: #fff;
   padding: 10px 12px;
   margin: 40px auto;
@@ -807,7 +807,7 @@ menu .panel .panel-heading {
 }
 .order-message .message-border p {
   font-size: 17px;
-  padding: 0 40px;
+  padding: 10px 10px;
 }
 .return {
   margin-left: 30px;
@@ -909,6 +909,36 @@ menu .panel .panel-heading {
 .margin-cabinet {
   padding-top: 25px !important;
 }
+/*update*/
+.back-links-right,
+.back-links-left {
+  width: 50%;
+  padding: 0 60px;
+}
+.back-links-right a,
+.back-links-left a {
+  text-transform: uppercase;
+  font-family: OpenSans-Semibold;
+  font-size: 12px;
+  color: #BFBFBF;
+  text-decoration: underline;
+}
+.back-links-right a:hover,
+.back-links-left a:hover {
+  color: #ff8888;
+}
+.back-links-right {
+  float: right;
+}
+.back-links-left {
+  float: left;
+  text-align: left;
+  padding-right: 20px;
+}
+.back-links-left a {
+  padding: 0;
+  margin: 0;
+}
 /***************************************
 				Enter
 ***************************************/
@@ -970,4 +1000,11 @@ menu .panel .panel-heading {
 }
 .registretion .log a:hover {
   color: #ff8888;
+}
+/***************************************
+				content
+***************************************/
+.deskription {
+  padding-bottom: 30px;
+  text-align: justify;
 }
