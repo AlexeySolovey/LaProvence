@@ -10,7 +10,7 @@
 @SansationFont: sansationRegular ;
 /*main*/
 html,body{
-	background: #F6F6F6 !important;
+	background: #F6F6F6;
 	height: 100%;
 }
 a{
@@ -29,7 +29,7 @@ h2{
 	margin-top: 13px;
 }
 h4{
-	font-size: 15px !important;
+	font-size: 15px;
 }
 input{
 	padding-left: 6px;
@@ -39,7 +39,7 @@ input{
 	}
 }
 p{
-	margin: 0 !important;
+	margin: 0;
 }
 span{
 	color: @greyTextColor;
@@ -49,12 +49,8 @@ span{
 	color: @pinkTextColor;
 	font-size: 13px;
 }
-
 .container{
 	max-width: 1030px;
-	min-width: 320px;
-	padding-right: 40px;
-	padding-left: 40px;
 }
 .fb, .odnoklasniki, .instagram, .bag, .serch, .vk{
 	background: url(../images/sprites.png) no-repeat;
@@ -80,8 +76,9 @@ header {
 			color: @pinkTextColor;
 		}
 		img.logo{
-			margin: 0 auto 7px auto;
+			margin: 10px 0 20px 0;
 			width: 300px;
+			height: 45px;
 		}
 	}
 	p {
@@ -90,7 +87,6 @@ header {
 	.login {
 		padding-top: 25px;
 		padding-right: 40px;
-		padding-bottom: 30px;
 		a.register:after {
 			content:"/";
 			color: @greyTextColor;
@@ -99,7 +95,6 @@ header {
 	.disk-shope{
 		font-size: 18px;
 		font-weight: lighter;
-		padding-bottom: 30px;
 	}
 }
 /*nav menu*/
@@ -122,7 +117,7 @@ header {
 .navbar {
 	background:@menuColor;
 	margin-bottom: 0!important;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	border-radius: 0!important;
 	a{
 		color: @greyTextColor;
@@ -136,17 +131,11 @@ header {
 			height: 45px;
 		}
 	}
-	.nav{
-		margin:0;
-	}
 	p {
 		color: @pinkTextColor;
 	}
 	.navbar-header .navbar-toggle {
-		border: 2px solid @greyTextColor;
-		border-radius: 0;
-		padding: 12px 10px 12px;
-		margin-top: -4px;
+		border-color: @greyTextColor;
 		.icon-bar {
 			background-color: @greyTextColor;
 		}
@@ -159,7 +148,7 @@ header {
 		}
 	}
 	.navbar-right{
-		margin-top: 4px;
+		margin-top: 42px;
 		display: block;
 		a.enter{
 			border: 2px solid @greyTextColor;
@@ -170,7 +159,7 @@ header {
 			}
 		.basket{
 			padding-right: 17px;
-			display: none;
+			display: inline;
 			}
 		.basket:hover{
 			color:@greyTextColor;
@@ -183,14 +172,13 @@ header {
 	}
 }
 #responsive-menu {
-	padding-top: 10px;
-	margin-top: 30px;
-	margin-bottom: -30px;
+	padding-top: 40px;
 	padding-bottom: 8px;
 	ul {
+		margin-left: -15px;
 		&.nav > li > a{
-			font-size: 18px;
-			padding: 6px 25px 0 0;
+			font-size: 15px;
+			padding: 6px 34px 0 0;
 			&:hover{
 				background:@menuColor;
 			}
@@ -434,7 +422,6 @@ footer {
 	height: 360px;
 	margin-top: -360px;
 	overflow: hidden;
-	text-align: center;
 	.footer-menu{
 		padding-top: 70px;
 		padding-left: 15px;
@@ -513,26 +500,24 @@ footer {
 .baner {
 	display: table;
 	width: 100%;
+	height: 310px;
 	background: url(../images/baner.png);
 	background-size: cover;
 	overflow: hidden;
 	margin-top: -7px;
 	div.text{ 
-		font-size: 14px;
-		padding: 30px 0;
+		font-size: 27px;
 		color: #fff;
-		display: block;
-		vertical-align: middle;
-		float:right;
-		width: 150px;
-	}
-	div.per_sent{
-		font-size: 53px;
-		color: #fff;
-		padding: 10px 0;
 		display: table-cell;
 		vertical-align: middle;
-		height: 120px;
+		height: 310px;
+	}
+	div.per_sent{
+		font-size: 150px;
+		color: #fff;
+		height: 310px;
+		display: table-cell;
+		vertical-align: middle;
 	}
 }
 /*Big content*/
@@ -556,7 +541,7 @@ footer {
 		.information{
 			background: #fff;
 			text-align: center;
-			margin-bottom: 30px;
+			margin-bottom: 20px;
 			p.describe{
 				font-family: @SansationFont;
 				font-size: 17px;
@@ -588,9 +573,6 @@ footer {
 		}
 	}
 }
-.discount h4{
-	margin-top: -40px;
-}
 /*Text block*/
 .text {
 	color: @greyTextColor;
@@ -599,14 +581,12 @@ footer {
 		padding-bottom: 64px;
 	}
 	h2{
-		font-size: 17.5px;
-		text-align: left;
-		padding-bottom: 20px;
-		line-height: 1.5;
-		font-weight: bold;
+		font-size: 26px;
+		text-align: center;
+		padding: 68px 175px 30px 175px;
 	}
 	p{
-		font-size: 16px;
+		font-size: 17px;
 		text-align: justify;
 	}
 }
@@ -1042,35 +1022,30 @@ menu {
 	text-align: justify;
 }
 
-/****************************************
-			media
-****************************************/
-@media only screen and (min-width: 768px){
-	header{
-		.login{
-			padding-bottom: 0;
-		}
-	}
+
+
+/**************************************
+				media
+**************************************/
+@media only screen and (min-width: 992) and (max-width: 1001px){
 	#responsive-menu {
-		padding-top: 0;
-		margin-bottom: 0;
-		margin-top: 0;
-		ul.nav > li > a{
+	ul {
+		&.nav > li > a{
 			font-size: 15px;
-			padding: 6px 15px 0 0;
+			padding: 6px 25px 0 0;
+			}
 		}
 	}
-	.container{
-		padding-left: 15px;
-		padding-right: 15px;
+}
+
+@media only screen and (max-width: 991px){
+	#responsive-menu ul.nav > li > a{
+		padding: 6px 15px 0 0;
 	}
-	.navbar {
-		padding-bottom: 20px;
+	.navbar .navbar-right a.enter .basket{
+		display: none;
 	}
 }
-@media only screen and (max-width: 380px){
-	.baner div.text{ 
-		text-align: left;
-		width: 100%;
-	}
-}
+
+
+

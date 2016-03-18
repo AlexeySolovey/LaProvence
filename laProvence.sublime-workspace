@@ -4,8 +4,44 @@
 		"selected_items":
 		[
 			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"padi",
+				"padding-bottom"
+			],
+			[
 				"pa",
 				"padding-right"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"gre",
+				"greyTextColor"
 			],
 			[
 				"fl",
@@ -48,10 +84,6 @@
 				"font-size"
 			],
 			[
-				"li",
-				"lightGreyColor"
-			],
-			[
 				"te",
 				"text-align"
 			],
@@ -76,16 +108,8 @@
 				"OpenSansSemibold"
 			],
 			[
-				"gre",
-				"greenColor"
-			],
-			[
 				"co",
 				"color"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"Ope",
@@ -134,10 +158,6 @@
 			[
 				"pi",
 				"pinkTextColor"
-			],
-			[
-				"padi",
-				"padding-top"
 			],
 			[
 				"p",
@@ -212,10 +232,6 @@
 				"text-decoration"
 			],
 			[
-				"marg",
-				"margin-top"
-			],
-			[
 				"min",
 				"min-width"
 			],
@@ -280,42 +296,42 @@
 	"buffers":
 	[
 		{
+			"file": "css/mobile.less",
+			"settings":
+			{
+				"buffer_size": 17719,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/tablet.less",
+			"settings":
+			{
+				"buffer_size": 17329,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10888,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 16961,
+				"buffer_size": 354,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/reg-check.js",
+			"file": "css/display.less",
 			"settings":
 			{
-				"buffer_size": 1563,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "linen.html",
-			"settings":
-			{
-				"buffer_size": 20220,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Program Files/Sublime Text/Data/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 171,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "catalog.html",
-			"settings":
-			{
-				"buffer_size": 19716,
+				"buffer_size": 16907,
 				"line_ending": "Windows"
 			}
 		}
@@ -327,16 +343,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 380.0,
+		"height": 392.0,
 		"last_filter": "css",
 		"selected_items":
 		[
 			[
 				"css",
 				"Set Syntax: CSS"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 308.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -366,6 +386,13 @@
 	],
 	"file_history":
 	[
+		"/C/OpenServer/domains/laProvence/css/style.less",
+		"/C/OpenServer/domains/laProvence/css/mobile.css",
+		"/C/OpenServer/domains/laProvence/js/reg-check.js",
+		"/C/OpenServer/domains/laProvence/linen.html",
+		"/C/OpenServer/domains/laProvence/catalog.html",
+		"/C/Users/Alexey/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Alexey/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/OpenServer/domains/laProvence/index.html",
 		"/C/OpenServer/domains/laProvence/basket.html",
 		"/C/OpenServer/domains/laProvence/update.html",
@@ -375,13 +402,10 @@
 		"/C/OpenServer/domains/laProvence/registretion.html",
 		"/C/OpenServer/domains/laProvence/js/first-reg.js",
 		"/C/OpenServer/domains/laProvence/enter.html",
-		"/C/OpenServer/domains/laProvence/js/reg-check.js",
-		"/C/OpenServer/domains/laProvence/catalog.html",
 		"/C/OpenServer/domains/laProvence/domain.sublime-project",
 		"/C/OpenServer/domains/laProvence/js/jquery-validate-v1.15.js",
 		"/C/OpenServer/domains/laProvence/css/sprites-basket.css",
 		"/C/OpenServer/domains/laProvence/css/mobile.less",
-		"/C/OpenServer/domains/laProvence/css/mobile.css",
 		"/C/OpenServer/domains/laProvence/cardOfGood.html",
 		"/C/OpenServer/domains/laProvence/css/fonts.css",
 		"/C/OpenServer/domains/laProvence/css/bootstrap.css",
@@ -397,7 +421,6 @@
 		"/C/OpenServer/domains/laProvence/images/sprites.png",
 		"/C/Users/Alexey/Desktop/sprites.css",
 		"/C/OpenServer/domains/laProvence/.htaccess",
-		"/C/OpenServer/domains/laProvence/css/style.less",
 		"/C/OpenServer/domains/laProvence/style.less",
 		"/C/Users/Alexey/Desktop/la  Provence/сайт файлы/laprovence.com.ua/www/index.php",
 		"/C/Users/Alexey/Desktop/rplus_html_test/html/index.html",
@@ -412,7 +435,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -477,19 +500,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "css/style.less",
+					"file": "css/mobile.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16961,
+						"buffer_size": 17719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								9025,
+								9025
 							]
 						],
 						"settings":
@@ -498,36 +521,36 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 11490.0,
+						"translation.y": 7875.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/reg-check.js",
+					"file": "css/tablet.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1563,
+						"buffer_size": 17329,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1346,
-								1346
+								8471,
+								8078
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 77.0,
-						"translation.y": 602.0,
+						"translation.x": 0.0,
+						"translation.y": 7290.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -536,24 +559,24 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 2,
-					"file": "linen.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20220,
+						"buffer_size": 10888,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3049,
+								3049
 							]
 						],
 						"settings":
@@ -562,67 +585,68 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1770.0,
+						"translation.y": 1215.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								354,
+								354
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Program Files/Sublime Text/Data/Packages/User/Preferences.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								171,
-								140
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "catalog.html",
+					"file": "css/display.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19716,
+						"buffer_size": 16907,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								19716
+								447,
+								447
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4434.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -656,7 +680,7 @@
 		"cols":
 		[
 			0.0,
-			0.368525325334,
+			0.461114836847,
 			1.0
 		],
 		"rows":
@@ -674,7 +698,7 @@
 	"project": "laProvence.sublime-project",
 	"replace":
 	{
-		"height": 176.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -711,7 +735,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 222.0,
 	"status_bar_visible": true,
 	"template_settings":
