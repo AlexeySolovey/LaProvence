@@ -1,3 +1,6 @@
+h2 {
+  color: #846c67;
+}
 header .disk-shope {
   color: #ff8888;
   font-family: OpenSans-Light;
@@ -10,4 +13,7 @@ header a img.logo {
 .discount .img-responsive {
   width: 100%;
   max-width: 100%;
+}
+.hvr-outline-out {
+  border: 1px;
 }

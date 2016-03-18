@@ -1120,7 +1120,7 @@ menu .panel .panel-heading {
 }
 @media only screen and (max-width: 380px) {
   .baner {
-    background-position: -70px 0;
+    background-position: -70px;
   }
   .baner div.text {
     text-align: left;
