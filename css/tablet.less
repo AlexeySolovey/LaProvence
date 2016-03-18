@@ -541,7 +541,8 @@ footer {
 		.information{
 			background: #fff;
 			text-align: center;
-			margin-bottom: 20px;
+			margin-bottom: 30px;
+			padding-bottom: 1px;
 			p.describe{
 				font-family: @SansationFont;
 				font-size: 17px;
@@ -562,34 +563,51 @@ footer {
 				}
 			}
 			button{
-				margin-top: 27px;
-				margin-bottom: 23px;
+				margin: 27px auto 20px auto;
 				padding: 5px 14px;
 				font-size: 13px;
 				border: 0;
 				background: @pinkTextColor;
 				color: #fff;
+				display: block;
 			}
 		}
 	}
+}
+.discount h4{
+	margin-top: -40px;
 }
 /*Text block*/
 .text {
 	color: @greyTextColor;
 	font-family: @OpenSansFont;
 	div{
-		padding-bottom: 64px;
+		padding-bottom: 24px;
 	}
 	h2{
-		font-size: 26px;
-		text-align: center;
-		padding: 68px 175px 30px 175px;
+		font-size: 17.5px;
+		text-align: left;
+		padding-bottom: 20px;
+		line-height: 1.5;
+		font-weight: bold;
 	}
 	p{
-		font-size: 17px;
+		font-size: 16px;
 		text-align: justify;
 	}
+	button.more{
+		margin: 27px auto 0 auto;
+		margin-bottom: 23px;
+		padding: 5px 14px;
+		font-size: 13px;
+		border: 0;
+		background: @pinkTextColor;
+		color: #fff;
+		display: block;
+		text-transform: uppercase;
+	}
 }
+
 
 /******************************************
 				catalog
@@ -1044,6 +1062,95 @@ menu {
 	}
 	.navbar .navbar-right a.enter .basket{
 		display: none;
+	}
+	.baner {
+		background-position:-150px 0;
+		div.text{ 
+			font-size: 21px;
+		}
+	}
+	/* footer*/
+	footer {
+		height: 320px;
+		margin-top: -320px;
+		overflow: hidden;
+		text-align: center;
+		.footer-menu{
+			padding-top: 25px;
+			padding-left: 15px;
+			ul {
+				font-size: 17px;
+				padding: 0;
+				&.first-footer-menu,
+				&.second-footer-menu,
+				&.contact{
+					margin-left: -15px;
+				}
+				li{
+				list-style-type: none;
+					&.title{
+						padding-bottom: 10px;
+					}
+					&.adress{
+						padding-top: 10px;
+					}
+				}
+				a{
+					color: @greyTextColor;
+
+					text-decoration: none;
+					display: block;
+					&:hover{
+						color:@pinkTextColor;
+						text-decoration: none;
+					}
+				}
+				&.contact li{
+					color: @greyTextColor;
+				}
+				&.social {
+					margin-top: 20px;
+					li{
+						display: inline-block;
+						padding-right: 4px;
+						a.vk{
+							background-position: 0 -70px ;
+							width: 39px;
+							height: 39px;
+						}
+						a.fb{
+							background-position: 0 -110px ;
+							width: 39px;
+							height: 39px;
+						}
+						a.odnoklasniki{
+							background-position: 0 -150px ;
+							width: 39px;
+							height: 39px;
+						}
+						a.instagram{
+							background-position: 0 -190px ;
+							width: 38px;
+							height: 39px;
+						}
+					}
+				}
+			}
+		}
+		.text-center{
+			color: @greyTextColor;
+			img{
+				padding-top: 20px;
+				padding-bottom: 10px;
+			}
+			p{
+				padding-bottom: 53px;
+				font-size: 12px;
+			}
+		}
+	}
+	.bottom-layout{
+		height: 320px;
 	}
 }
 

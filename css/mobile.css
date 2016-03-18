@@ -47,7 +47,7 @@ span {
 }
 .container {
   max-width: 1030px;
-  min-width: 320px;
+  min-width: 319px;
   padding-right: 40px;
   padding-left: 40px;
 }
@@ -429,13 +429,13 @@ ul.paginat li .active {
 }
 /* footer*/
 footer {
-  height: 360px;
-  margin-top: -360px;
+  height: 320px;
+  margin-top: -320px;
   overflow: hidden;
   text-align: center;
 }
 footer .footer-menu {
-  padding-top: 70px;
+  padding-top: 25px;
   padding-left: 15px;
 }
 footer .footer-menu ul {
@@ -450,6 +450,12 @@ footer .footer-menu ul.contact {
 footer .footer-menu ul li {
   list-style-type: none;
 }
+footer .footer-menu ul li.title {
+  padding-bottom: 10px;
+}
+footer .footer-menu ul li.adress {
+  padding-top: 10px;
+}
 footer .footer-menu ul a {
   color: #846c67;
   text-decoration: none;
@@ -463,7 +469,7 @@ footer .footer-menu ul.contact li {
   color: #846c67;
 }
 footer .footer-menu ul.social {
-  margin-left: -30px;
+  margin-top: 20px;
 }
 footer .footer-menu ul.social li {
   display: inline-block;
@@ -493,21 +499,22 @@ footer .text-center {
   color: #846c67;
 }
 footer .text-center img {
-  padding-top: 76px;
-  padding-bottom: 24px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 footer .text-center p {
   padding-bottom: 53px;
+  font-size: 12px;
 }
 .bottom-layout {
-  height: 360px;
+  height: 320px;
 }
 /****************************
 			main page
 ****************************/
 /*baner*/
 .baner {
-  display: table;
+  display: block;
   width: 100%;
   background: url(../images/baner.png);
   background-size: cover;
@@ -571,6 +578,7 @@ footer .text-center p {
   background: #fff;
   text-align: center;
   margin-bottom: 30px;
+  padding-bottom: 1px;
 }
 .news .col-xs-12 .information p.describe,
 .discount .col-xs-12 .information p.describe,
@@ -634,13 +642,13 @@ footer .text-center p {
 .discount .col-md-4 .information button,
 .news .col-lg-3 .information button,
 .discount .col-lg-3 .information button {
-  margin-top: 27px;
-  margin-bottom: 23px;
+  margin: 27px auto 20px auto;
   padding: 5px 14px;
   font-size: 13px;
   border: 0;
   background: #ff8888;
   color: #fff;
+  display: block;
 }
 .discount h4 {
   margin-top: -40px;
@@ -651,7 +659,7 @@ footer .text-center p {
   font-family: OpenSans;
 }
 .text div {
-  padding-bottom: 64px;
+  padding-bottom: 24px;
 }
 .text h2 {
   font-size: 17.5px;
@@ -663,6 +671,17 @@ footer .text-center p {
 .text p {
   font-size: 16px;
   text-align: justify;
+}
+.text button.more {
+  margin: 27px auto 0 auto;
+  margin-bottom: 23px;
+  padding: 5px 14px;
+  font-size: 13px;
+  border: 0;
+  background: #ff8888;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
 }
 /******************************************
 				catalog
@@ -1100,8 +1119,19 @@ menu .panel .panel-heading {
   }
 }
 @media only screen and (max-width: 380px) {
+  .baner {
+    background-position: -70px 0;
+  }
   .baner div.text {
     text-align: left;
     width: 100%;
+  }
+  /* footer*/
+  footer {
+    height: 365px;
+    margin-top: -365px;
+  }
+  .bottom-layout {
+    height: 365px;
   }
 }
