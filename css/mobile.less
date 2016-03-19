@@ -121,9 +121,9 @@ header {
 }
 .navbar {
 	background:@menuColor;
-	margin-bottom: 0!important;
+	margin-bottom: 0;
 	padding-bottom: 40px;
-	border-radius: 0!important;
+	border-radius: 0;
 	a{
 		color: @greyTextColor;
 		&:hover{
@@ -161,7 +161,7 @@ header {
 	.navbar-right{
 		margin-top: 4px;
 		display: block;
-		a.enter{
+		a.basket-link{
 			border: 2px solid @greyTextColor;
 			padding: 10px 30px 10px 10px;
 			font-size: 18px;
@@ -1074,8 +1074,9 @@ menu {
 		padding-top: 0;
 		margin-bottom: 0;
 		margin-top: 0;
+		margin-left: -15px;
 		ul.nav > li > a{
-			font-size: 15px;
+			font-size: 14px;
 			padding: 6px 15px 0 0;
 		}
 	}
@@ -1085,6 +1086,9 @@ menu {
 	}
 	.navbar {
 		padding-bottom: 20px;
+		.navbar-right{
+			margin-right: 0;
+		}
 	}
 }
 @media only screen and (max-width: 380px){

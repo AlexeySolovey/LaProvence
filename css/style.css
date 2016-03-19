@@ -1,5 +1,9 @@
+/*main*/
 h2 {
   color: #846c67;
+}
+header button.serch {
+  margin-top: 5px;
 }
 header .disk-shope {
   color: #ff8888;
@@ -9,11 +13,15 @@ header a img.logo {
   margin-left: auto;
   margin-right: auto;
 }
+header input {
+  display: none;
+}
+.hvr-outline-out {
+  border: 1px;
+}
+/*index*/
 .news .img-responsive,
 .discount .img-responsive {
   width: 100%;
   max-width: 100%;
-}
-.hvr-outline-out {
-  border: 1px;
 }

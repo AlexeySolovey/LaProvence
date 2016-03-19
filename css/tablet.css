@@ -154,24 +154,25 @@ header button.bag {
 .navbar .navbar-right {
   margin-top: 42px;
   display: block;
+  margin-right: 0;
 }
-.navbar .navbar-right a.enter {
+.navbar .navbar-right a.basket-link {
   border: 2px solid #846c67;
   padding: 10px 30px 10px 10px;
   font-size: 18px;
 }
-.navbar .navbar-right a.enter:hover {
+.navbar .navbar-right a.basket-link:hover {
   color: #846c67;
 }
-.navbar .navbar-right a.enter .basket {
+.navbar .navbar-right a.basket-link .basket {
   padding-right: 17px;
   display: inline;
 }
-.navbar .navbar-right a.enter .basket:hover {
+.navbar .navbar-right a.basket-link .basket:hover {
   color: #846c67;
 }
-.navbar .navbar-right a.enter .count,
-.navbar .navbar-right a.enter .sum {
+.navbar .navbar-right a.basket-link .count,
+.navbar .navbar-right a.basket-link .sum {
   color: #ff8888;
   padding-right: 10px;
 }
@@ -184,7 +185,7 @@ header button.bag {
 }
 #responsive-menu ul.nav > li > a {
   font-size: 15px;
-  padding: 6px 34px 0 0;
+  padding: 6px 33px 0 0;
 }
 #responsive-menu ul.nav > li > a:hover {
   background: #574340;
@@ -1088,7 +1089,7 @@ menu .panel .panel-heading {
   #responsive-menu ul.nav > li > a {
     padding: 6px 15px 0 0;
   }
-  .navbar .navbar-right a.enter .basket {
+  .navbar .navbar-right a.basket-link .basket {
     display: none;
   }
   .baner {

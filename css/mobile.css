@@ -122,9 +122,9 @@ header button.bag {
 }
 .navbar {
   background: #574340;
-  margin-bottom: 0!important;
+  margin-bottom: 0;
   padding-bottom: 40px;
-  border-radius: 0!important;
+  border-radius: 0;
 }
 .navbar a {
   color: #846c67;
@@ -165,23 +165,23 @@ header button.bag {
   margin-top: 4px;
   display: block;
 }
-.navbar .navbar-right a.enter {
+.navbar .navbar-right a.basket-link {
   border: 2px solid #846c67;
   padding: 10px 30px 10px 10px;
   font-size: 18px;
 }
-.navbar .navbar-right a.enter:hover {
+.navbar .navbar-right a.basket-link:hover {
   color: #846c67;
 }
-.navbar .navbar-right a.enter .basket {
+.navbar .navbar-right a.basket-link .basket {
   padding-right: 17px;
   display: none;
 }
-.navbar .navbar-right a.enter .basket:hover {
+.navbar .navbar-right a.basket-link .basket:hover {
   color: #846c67;
 }
-.navbar .navbar-right a.enter .count,
-.navbar .navbar-right a.enter .sum {
+.navbar .navbar-right a.basket-link .count,
+.navbar .navbar-right a.basket-link .sum {
   color: #ff8888;
   padding-right: 10px;
 }
@@ -1105,9 +1105,10 @@ menu .panel .panel-heading {
     padding-top: 0;
     margin-bottom: 0;
     margin-top: 0;
+    margin-left: -15px;
   }
   #responsive-menu ul.nav > li > a {
-    font-size: 15px;
+    font-size: 14px;
     padding: 6px 15px 0 0;
   }
   .container {
@@ -1116,6 +1117,9 @@ menu .panel .panel-heading {
   }
   .navbar {
     padding-bottom: 20px;
+  }
+  .navbar .navbar-right {
+    margin-right: 0;
   }
 }
 @media only screen and (max-width: 380px) {
