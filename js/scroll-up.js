@@ -2,7 +2,7 @@ $(document).ready(function(){
    $(function(){
       $('.back-top').click(function(){
         $('body,html').animate({
-            scrollTop:0}, 3000);
+            scrollTop:0}, 500);
         return false;
       });
    });
