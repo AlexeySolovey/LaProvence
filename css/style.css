@@ -5,6 +5,9 @@ h2 {
 header button.serch {
   margin-top: 5px;
 }
+header button.serch:hover {
+  background: url(../images/serch-active.png);
+}
 header .disk-shope {
   color: #ff8888;
   font-family: OpenSans-Light;
@@ -15,6 +18,13 @@ header a img.logo {
 }
 header input {
   display: none;
+}
+.navbar .navbar-right .hvr-outline-out {
+  border: 2px solid #846c67;
+}
+.navbar .navbar-right .hvr-outline-out:hover {
+  border: 2px solid #846c67;
+  padding-bottom: 30px;
 }
 .hvr-outline-out {
   border: 1px;

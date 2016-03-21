@@ -1087,7 +1087,7 @@ menu .panel .panel-heading {
 }
 @media only screen and (max-width: 991px) {
   #responsive-menu ul.nav > li > a {
-    padding: 6px 15px 0 0;
+    padding: 6px 14px 0 0;
   }
   .navbar .navbar-right a.basket-link .basket {
     display: none;
