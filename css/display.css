@@ -114,6 +114,7 @@ header button.serch {
   background-position: 0 0;
   cursor: pointer;
   margin-left: 10px;
+  outline: none;
 }
 .navbar button.bag,
 header button.bag {
@@ -123,9 +124,9 @@ header button.bag {
 }
 .navbar {
   background: #574340;
-  margin-bottom: 0!important;
+  margin-bottom: 0;
   padding-bottom: 20px;
-  border-radius: 0!important;
+  border-radius: 0;
 }
 .navbar a {
   color: #846c67;
@@ -157,20 +158,21 @@ header button.bag {
   border-color: #ff8888;
 }
 .navbar .navbar-right {
-  margin-top: 42px;
+  margin-top: 45px;
   display: block;
   margin-right: 0;
 }
 .navbar .navbar-right a.basket-link {
   border: 2px solid #846c67;
   padding: 10px 30px 10px 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .navbar .navbar-right a.basket-link:hover {
   color: #846c67;
 }
 .navbar .navbar-right a.basket-link .basket {
   padding-right: 17px;
+  font-family: OpenSans-Regular;
 }
 .navbar .navbar-right a.basket-link .basket:hover {
   color: #846c67;
@@ -188,8 +190,9 @@ header button.bag {
   margin-left: -15px;
 }
 #responsive-menu ul.nav > li > a {
-  font-size: 18px;
-  padding: 6px 25px 0 0;
+  font-size: 16px;
+  padding: 6px 33px 0 0;
+  font-family: OpenSans-Regular;
 }
 #responsive-menu ul.nav > li > a:hover {
   background: #574340;

@@ -29,6 +29,11 @@ header input {
   border: 2px solid #846c67;
   padding-bottom: 30px;
 }
+.nav > li > a:focus {
+  background: #574340;
+  border: 0;
+  outline: none;
+}
 .hvr-outline-out {
   border: 1px;
 }

@@ -112,6 +112,7 @@ header {
 		background-position: 0 0;
 		cursor: pointer;
 		margin-left: 10px;
+		outline: none;
 	}
 	&.bag{
 		background-position: 0 -20px ;
@@ -121,9 +122,9 @@ header {
 }
 .navbar {
 	background:@menuColor;
-	margin-bottom: 0!important;
+	margin-bottom: 0;
 	padding-bottom: 20px;
-	border-radius: 0!important;
+	border-radius: 0;
 	a{
 		color: @greyTextColor;
 		&:hover{
@@ -153,18 +154,19 @@ header {
 		}
 	}
 	.navbar-right{
-		margin-top: 42px;
+		margin-top: 45px;
 		display: block;
 		margin-right: 0;
 		a.basket-link{
 			border: 2px solid @greyTextColor;
 			padding: 10px 30px 10px 10px;
-			font-size: 18px;
+			font-size: 16px;
 			&:hover{
 				color:@greyTextColor;
 			}
 		.basket{
 			padding-right: 17px;
+			font-family: @OpenSansRegular;
 			}
 		.basket:hover{
 			color:@greyTextColor;
@@ -182,8 +184,9 @@ header {
 	ul {
 		margin-left: -15px;
 		&.nav > li > a{
-			font-size: 18px;
-			padding: 6px 25px 0 0;
+			font-size: 16px;
+			padding: 6px 33px 0 0;
+			font-family: @OpenSansRegular;
 			&:hover{
 				background:@menuColor;
 			}

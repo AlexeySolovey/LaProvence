@@ -181,6 +181,7 @@ header button.bag {
 .navbar .navbar-right a.basket-link .basket {
   padding-right: 17px;
   display: none;
+  font-family: OpenSans-Regular;
 }
 .navbar .navbar-right a.basket-link .basket:hover {
   color: #846c67;
@@ -199,6 +200,7 @@ header button.bag {
 #responsive-menu ul.nav > li > a {
   font-size: 18px;
   padding: 6px 25px 0 0;
+  font-family: OpenSans-Regular;
 }
 #responsive-menu ul.nav > li > a:hover {
   background: #574340;
@@ -1128,7 +1130,7 @@ menu .panel .panel-heading {
   }
   #responsive-menu ul.nav > li > a {
     font-size: 14px;
-    padding: 6px 15px 0 0;
+    padding: 6px 14px 0 0;
   }
   .container {
     padding-left: 15px;
