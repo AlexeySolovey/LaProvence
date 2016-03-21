@@ -480,6 +480,20 @@ footer .footer-menu ul.social li a.instagram {
   width: 38px;
   height: 39px;
 }
+footer .scroll-up {
+  text-align: right;
+}
+footer .scroll-up a {
+  background: url(../images/arrow.png);
+  width: 34px;
+  height: 34px;
+  margin-top: -85px;
+  margin-left: -25px;
+  position: absolute;
+}
+footer .scroll-up a:hover {
+  background: url(../images/arrow-active.png);
+}
 footer .text-center {
   color: #846c67;
 }

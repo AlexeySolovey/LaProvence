@@ -12,6 +12,9 @@ header .disk-shope {
   color: #ff8888;
   font-family: OpenSans-Light;
 }
+header .login {
+  height: 45px;
+}
 header a img.logo {
   margin-left: auto;
   margin-right: auto;
