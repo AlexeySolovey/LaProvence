@@ -252,16 +252,16 @@ header button.bag {
   position: absolute;
 }
 /*table*/
-section table {
+table {
   background: #fff;
   width: 100%;
   border: 15px solid #fff;
 }
-section table tr {
+table tr {
   text-align: center;
   padding: 10px;
 }
-section table tr th {
+table tr th {
   color: #BFBFBF;
   font-family: OpenSans-Regular;
   font-size: 15px;
@@ -269,33 +269,39 @@ section table tr th {
   padding: 0 12px 23px 0;
   font-weight: normal;
 }
-section table tr td {
+table tr td {
   border: 1px solid #fff;
   padding: 9px 12px;
   color: #846c67;
   font-family: OpenSans-Regular;
   font-size: 15px;
 }
-section table tr td img {
+table tr td img {
   height: 46px;
   width: 46px;
 }
-section table tr td a {
+table tr td a {
   color: #bdbdbd;
 }
-section table tr td a:hover {
+table tr td a:hover {
   color: #ff8888;
   text-decoration: none;
 }
-section table tr td span {
+table tr td span {
   color: #846c67;
 }
-section table tr td.discribe {
+table tr td.discribe {
   font-size: 13px;
 }
-section table tr td.together {
+table tr td.together {
   color: #ff8888;
   font-size: 20px;
+}
+table.mobile-table {
+  border: 0;
+}
+table.mobile-table tr {
+  padding: 10px 0;
 }
 /*widggets block*/
 section .col-xs-2 {
@@ -1179,11 +1185,18 @@ menu .panel .panel-heading {
   .catalog .goods .information {
     text-align: left;
   }
+  /*basket*/
   ul.mob-paginat {
     display: none;
   }
   ul.paginat {
     display: block;
+  }
+  .table-header {
+    display: none;
+  }
+  .mobile-table {
+    display: none;
   }
 }
 @media only screen and (max-width: 380px) {

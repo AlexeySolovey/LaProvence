@@ -47,7 +47,7 @@
 				</div>
 			</div>
 			<div class="navbar-right text-right">
-				<a href="basket.html" class="enter">
+				<a href="basket.html" class="basket-link">
 					<span class="basket">Корзина</span>
 					<span class="count">x1</span>
 					<span class="sum">1 500 грн</span>
@@ -72,7 +72,7 @@
 	<div class="bread-crumbs">
 		<div class="container ">
 			<div class="row">
-				<div class="col-xs-offset-3 col-xs-9">
+				<div class="col-md-offset-3 col-md-9">
 					<a href="#">Главная</a>
 					<span>Ваша корзина</span>
 				</div>
@@ -80,9 +80,14 @@
 		</div>
 	</div>
 	<section class="container">
+		<div class="table-header">
+			<div class="big-bag"></div>
+			<h2>Состояние корзины</h2>
+			<h5>Ваша корзина содержит: 3 товара</h5>
+		</div>
 		<div class="row">
 			<!-- START MENU-->
-			<menu class="col-xs-3">
+			<menu class="hidden-xs hidden-sm col-md-3">
 				<div class="panel-group" id="accordion">
 					<div class="panel">
 						<div class="panel-heading">
@@ -580,7 +585,7 @@
 			</menu>
 			<!--end menu-->
 			<!--Start MAIN block-->
-			<div class="col-xs-9">
+			<div class="hidden-xs col-md-9">
 				<div class="big-bag"></div>
 				<h2>Состояние корзины</h2>
 				<h5>Ваша корзина содержит: 3 товара</h5>
@@ -648,8 +653,65 @@
 				</div>
 			</div>
 		</div>
-
 	</section>
+	<div class="mobile-table">
+		<table>
+			<tr>
+				<th width="">Товар</th>
+				<th width="">Описание</th>
+				<th width="150">Итого</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td  rowspan="2"><img src="images/preview-table.png"></td>
+				<td  rowspan="2" class="discribe">Полотенце махровое 70х140 см (бамбук/хл)</td>
+				<td>400,00 грн.</td>
+				<td  rowspan="2"><a href="#">Х</a></td>
+			</tr>
+			<tr>
+				<td>
+					<a href="#" class="left"></a>
+					<span>1</span>
+					<a href="#" class="right"></a>
+				</td>
+			</tr>
+			<tr>
+				<td  rowspan="2"><img src="images/preview-table.png"></td>
+				<td  rowspan="2" class="discribe">Полотенце махровое 70х140 см (бамбук/хл)</td>
+				<td>400,00 грн.</td>
+				<td  rowspan="2"><a href="#">Х</a></td>
+			</tr>
+			<tr>
+				<td>
+					<a href="#" class="left"></a>
+					<span>1</span>
+					<a href="#" class="right"></a>
+				</td>
+			</tr>
+			<tr>
+				<td  rowspan="2"><img src="images/preview-table.png"></td>
+				<td  rowspan="2" class="discribe">Полотенце махровое 70х140 см (бамбук/хл)</td>
+				<td>400,00 грн.</td>
+				<td  rowspan="2"><a href="#">Х</a></td>
+			</tr>
+			<tr>
+				<td>
+					<a href="#" class="left"></a>
+					<span>1</span>
+					<a href="#" class="right"></a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="1"></td>
+				<td>Итого:</td>
+				<td class="together">2 500,00 грн.</td>
+			</tr>
+		</table>
+
+		<div>какой-то текст</div>
+		<div>другой текст</div>
+
+	</div>
 	<div class="bottom-layout"></div>
 </div> <!-- end wrap-->
 <!--footer-->

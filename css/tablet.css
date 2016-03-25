@@ -880,6 +880,9 @@ menu .panel .panel-heading {
   text-transform: uppercase;
   font-family: OpenSans-Semibold;
 }
+.basket section .table-header {
+  display: none;
+}
 /*accept order*/
 .order-message {
   width: 460px;
