@@ -23,6 +23,7 @@ h2 {
   color: #846c67;
   font-size: 19.3px;
   margin-top: 13px;
+  text-align: center;
 }
 h4 {
   font-size: 15px !important;
@@ -39,6 +40,22 @@ p {
 }
 span {
   color: #846c67;
+}
+#menu-button {
+  padding: 5px 0;
+  background: #846c67;
+  width: 100%;
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 13px;
+  font-size: 12px;
+  font-family: OpenSans-Semibold;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+#menu-button.hvr-outline-out:before {
+  border: 2px solid #846c67;
 }
 .error {
   display: block;
@@ -414,25 +431,32 @@ section .col-xs-2 .news-block .other-news {
   text-align: center;
 }
 /*pagination*/
-ul.paginat {
-  padding-top: 35px;
-  padding-bottom: 44px;
+ul.paginat,
+ul.mob-paginat {
+  padding: 35px 0 44px 10px;
 }
-ul.paginat li {
+ul.paginat li,
+ul.mob-paginat li {
   display: inline;
-  padding-right: 18px;
+  padding-right: 10px;
 }
-ul.paginat li a {
+ul.paginat li a,
+ul.mob-paginat li a {
   color: #846c67;
   text-decoration: none;
   font-family: OpenSans-Semibold;
   font-size: 13px;
 }
-ul.paginat li a:hover {
+ul.paginat li a:hover,
+ul.mob-paginat li a:hover {
   color: #ff8888;
 }
-ul.paginat li .active {
+ul.paginat li .active,
+ul.mob-paginat li .active {
   color: #ff8888;
+}
+ul.paginat {
+  display: none;
 }
 /* footer*/
 footer {
@@ -752,30 +776,26 @@ menu .panel .panel-heading {
   padding-bottom: 12px;
   margin-top: 13px;
 }
-.catalog .goods {
-  height: 171px;
-}
-.catalog .goods img {
-  height: 171px;
-  width: 247px;
-}
 .catalog .goods p.describe {
   padding-top: 16px;
   padding-bottom: 11px;
 }
 .catalog .goods button {
-  margin: 18px 0 23px 23px;
+  margin: 18px auto 23px auto;
+  display: block;
 }
 .goods {
   background-color: #fff;
   margin-bottom: 20px;
 }
 .goods img {
-  float: left;
-  padding-right: 25px;
+  min-width: 100%;
+  width: 100%;
 }
 .goods .information {
   color: #846c67;
+  text-align: center;
+  padding-bottom: 1px;
 }
 .goods .information p.describe {
   font-family: sansationRegular;
@@ -1141,6 +1161,29 @@ menu .panel .panel-heading {
   }
   .navbar .navbar-right {
     margin-right: 0;
+  }
+  /*catalog*/
+  .catalog .goods {
+    height: 171px;
+  }
+  .catalog .goods img {
+    width: 247px;
+    height: 171px;
+    min-width: auto;
+    float: left;
+    padding-right: 30px;
+  }
+  .catalog .goods button {
+    margin: 2px auto 23px 0;
+  }
+  .catalog .goods .information {
+    text-align: left;
+  }
+  ul.mob-paginat {
+    display: none;
+  }
+  ul.paginat {
+    display: block;
   }
 }
 @media only screen and (max-width: 380px) {

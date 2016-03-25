@@ -22,11 +22,12 @@ header,footer{
 h2,h4, h5, p, label{
 	font-family: @OpenSansSemibold;
 	color: @greyTextColor;
-}	
+}
 h2{
 	color: @greyTextColor;
 	font-size: 19.3px;
 	margin-top: 13px;
+	text-align: center;
 }
 h4{
 	font-size: 15px !important;
@@ -43,6 +44,23 @@ p{
 }
 span{
 	color: @greyTextColor;
+}
+#menu-button{
+	width: 100%;
+	padding: 5px 0;
+	background: @greyTextColor;
+	width: 100%;
+	color: #fff;
+	margin-top: 25px;
+	margin-bottom: 13px;
+	font-size: 12px;
+	font-family: @OpenSansSemibold;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	&.hvr-outline-out:before{
+		border:2px solid @greyTextColor;
+	}
 }
 .error{
 	display: block;
@@ -416,12 +434,11 @@ section .col-xs-2{
 	}
 }
 /*pagination*/
-ul.paginat {
-	padding-top: 35px;
-	padding-bottom: 44px;
+ul.paginat, ul.mob-paginat{
+	padding: 35px 0 44px 10px;
 	li{
 		display: inline;
-		padding-right: 18px;
+		padding-right: 10px;
 		a{
 			color: @greyTextColor;
 			text-decoration: none;
@@ -436,6 +453,10 @@ ul.paginat {
 		}
 	}
 }
+ul.paginat{
+	display: none;
+}
+
 /* footer*/
 footer {
 	height: 320px;
@@ -707,17 +728,13 @@ menu {
 		margin-top: 13px;
 	}
 	.goods {
-		height: 171px;
-		img{
-			height:171px;
-			width: 247px;
-		}
 		p.describe{
 			padding-top: 16px;
 			padding-bottom: 11px;
 		}
 		button{
-			margin: 18px 0 23px 23px;
+			margin: 18px auto 23px auto;
+			display: block;
 		}
 	}
 }
@@ -725,11 +742,13 @@ menu {
 	background-color: #fff;
 	margin-bottom: 20px;
 	img{
-		float: left;
-		padding-right: 25px;
+		min-width: 100%;
+		width: 100%;
 	}
 	.information{
 		color: @greyTextColor;
+		text-align: center;
+		padding-bottom: 1px;
 		p.describe{
 			font-family: @SansationFont;
 			font-size: 15px;
@@ -1111,7 +1130,36 @@ menu {
 			margin-right: 0;
 		}
 	}
+	/*catalog*/
+	.catalog {
+		.goods {
+			height: 171px;
+			img{
+				width: 247px;
+				height:171px;
+				min-width: auto;
+				float: left;
+				padding-right: 30px;
+			}
+			button{
+				margin: 2px auto 23px 0;
+			}
+			.information{
+				text-align: left;
+			}
+		}
+	}
+	ul.mob-paginat{
+		display: none;
+	}
+	ul.paginat{
+		display: block;
+	}
 }
+
+
+
+
 @media only screen and (max-width: 380px){
 	.baner {
 		background-position: -70px;

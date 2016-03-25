@@ -427,6 +427,9 @@ ul.paginat li a:hover {
 ul.paginat li .active {
   color: #ff8888;
 }
+ul.mob-paginat {
+  display: none;
+}
 /* footer*/
 footer {
   height: 360px;
@@ -1119,6 +1122,10 @@ menu .panel .panel-heading {
   }
   .baner div.text {
     font-size: 21px;
+  }
+  .catalog .goods button {
+    margin-top: 4px;
+    display: block;
   }
   /* footer*/
   footer {
