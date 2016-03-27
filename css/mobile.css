@@ -1085,11 +1085,13 @@ table tr td.together {
   width: 100%;
   background: #fff;
   margin-top: 22px;
+  margin-bottom: 22px;
   padding: 10px 22px 22px 22px;
 }
 .registretion .register-block button {
-  padding: 5px 14px;
-  margin: 17px -1px 14px 33px;
+  padding: 5px 0;
+  margin: 17px -1px 14px 0;
+  width: 100%;
   background: #846c67;
   color: #fff;
   font-size: 12px;
@@ -1099,10 +1101,27 @@ table tr td.together {
 .registretion .register-block button.hvr-outline-out:before {
   border: 2px solid #846c67;
 }
+.registretion .register-block input {
+  display: block;
+  width: 100%;
+}
 .registretion .register-block label {
   display: block;
-  color: #ff8888;
+  text-align: left;
   font-size: 13px;
+  font-family: OpenSans-Semibold;
+  color: #846c67;
+  padding: 7px 0 0 0;
+}
+.registretion .register-block label.margin {
+  padding-top: 25px;
+  padding-bottom: 0;
+}
+.registretion .register-block label.star:before {
+  content: "*";
+  position: absolute;
+  color: #ff8888;
+  margin-left: -10px;
 }
 .registretion .register-block p.infor {
   color: #bdbdbd;
@@ -1113,6 +1132,7 @@ table tr td.together {
 }
 .registretion .register-block table {
   border: 0;
+  display: none;
 }
 .registretion .register-block table tr th {
   text-align: left;
@@ -1191,12 +1211,10 @@ table tr td.together {
   padding-bottom: 17px;
   color: #846c67;
   background: #fff;
-  width: 50%;
   border-top: 12px solid #F6F6F6;
 }
 .registretion .reg button,
 .registretion .log button {
-  float: right;
   padding: 5px 14px;
   background: #846c67;
   color: #fff;
@@ -1222,17 +1240,12 @@ table tr td.together {
 .registretion .log p {
   font-size: 12px;
 }
-.registretion .reg {
-  float: left;
-  border-right: 10px solid #F6F6F6;
-}
 .registretion .reg p {
   padding-top: 14px;
   padding-bottom: 14px;
 }
 .registretion .log {
-  float: right;
-  border-left: 10px solid #F6F6F6;
+  margin-bottom: 20px;
 }
 .registretion .log a {
   padding-top: 12px;
@@ -1243,6 +1256,10 @@ table tr td.together {
 }
 .registretion .log a:hover {
   color: #ff8888;
+}
+.registretion .log .remember {
+  padding-top: 10px;
+  text-align: center;
 }
 /***************************************
 				content

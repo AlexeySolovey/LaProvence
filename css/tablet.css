@@ -1016,6 +1016,9 @@ menu .panel .panel-heading {
   color: #ff8888;
   margin-left: -10px;
 }
+.registretion .register-block .fields {
+  display: none;
+}
 /*cabinet*/
 .margin-cabinet {
   padding-top: 25px !important;
@@ -1061,6 +1064,7 @@ menu .panel .panel-heading {
   background: #fff;
   width: 50%;
   border-top: 12px solid #F6F6F6;
+  margin-bottom: 40px;
 }
 .registretion .reg button,
 .registretion .log button {
