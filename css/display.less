@@ -15,6 +15,10 @@ html,body{
 }
 a{
 	color: @greyTextColor;
+	&:focus{
+		outline:none;
+		text-decoration: none;
+	}
 }
 header,footer{
 	background: @menuColor;
@@ -77,6 +81,11 @@ header {
 		&:hover{
 			text-decoration: none;
 			color: @pinkTextColor;
+		}
+		&:focus{
+			outline:none;
+			color: @pinkTextColor;
+			text-decoration: none;
 		}
 		img.logo{
 			margin: 10px 0 20px 0;

@@ -7,6 +7,10 @@ body {
 a {
   color: #846c67;
 }
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
 header,
 footer {
   background: #574340;
@@ -95,6 +99,11 @@ header a {
 header a:hover {
   text-decoration: none;
   color: #ff8888;
+}
+header a:focus {
+  outline: none;
+  color: #ff8888;
+  text-decoration: none;
 }
 header a img.logo {
   margin: 0 auto 7px auto;
