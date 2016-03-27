@@ -71,7 +71,7 @@
 	<div class="bread-crumbs">
 		<div class="container ">
 			<div class="row">
-				<div class="col-xs-offset-3 col-xs-9">
+				<div class="col-sm-offset-3 col-sm-9 ">
 					<a href="#">Главная</a>
 					<span>Личный кабинет</span>
 				</div>
@@ -80,8 +80,62 @@
 	</div>
 	<section class="container">
 		<div class="row">
+			<!--Start MAIN block-->
+			<div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+				<a href="#menu" id="menu-button" class="hvr-outline-out">Меню</a>
+			</div>
+			<div class="col-xs-12 col-sm-push-3 col-sm-9 col-md-push-3 col-md-9 col-lg-push-3 col-lg-7">
+				<h2>Личный кабинет</h2>
+				<div class="register-block">
+					<form action="update.html" method="POST" id="cabinet">
+						<table>
+							<tr>
+								<th>Не забывайте обновлять личную информацию в случае изменений</th>
+							</tr>
+							<tr>
+								<td class="star">Е-mail</td>
+								<td><input type="text" name="email"></td>
+							</tr>
+							<tr>
+								<td>Телефон</td>
+								<td><input type="text" size="14"></td>
+							</tr>
+							<tr>
+								<td>Имя</td>
+								<td><input type="text" name="name"></td>
+							</tr>
+							<tr>
+								<td>Фамилия</td>
+								<td><input type="text" size="14"></td>
+							</tr>
+							<tr>
+								<td>Город</td>
+								<td><input type="text" size="14"></td>
+							</tr>
+							<tr>
+								<td class="star margin-cabinet">Старый пароль</td>
+								<td  class="margin-cabinet"><input type="text" name="old_password"></td>
+							</tr>
+							<tr>
+								<td class="star">Новый пароль</td>
+								<td><input type="text" name="password" id="passId"></td>
+							</tr>
+							<tr>
+								<td class="star">Подтверждение пароля</td>
+								<td><input type="text" name="password2"></td>
+							</tr>
+						</table>
+						<div class="text-center">
+							<button type="submit"  class="hvr-outline-out">Сохранить</button>
+						</div>
+					</form>
+					<p class="infor"><i>*</i> &mdash; обязательные к заполнению поля</p>
+				</div>
+			</div>
+			<!--end content-->
 			<!-- START MENU-->
-			<menu class="col-xs-3">
+			<menu class="col-xs-12 col-sm-pull-9 col-sm-3 col-md-pull-9 col-md-3 col-lg-pull-7 col-lg-3">
+				<a name="menu" style="position: absolute; margin-top: -50px"></a>
 				<div class="panel-group" id="accordion">
 					<div class="panel">
 						<div class="panel-heading">
@@ -578,77 +632,27 @@
 					</div>
 			</menu>
 			<!--end menu-->
-			<!--Start MAIN block-->
-			<div class="col-xs-7">
-				<h2>Личный кабинет</h2>
-				<div class="register-block">
-					<form action="update.html" method="POST" id="cabinet">
-						<table>
-							<tr>
-								<th>Не забывайте обновлять личную информацию в случае изменений</th>
-							</tr>
-							<tr>
-								<td class="star">Е-mail</td>
-								<td><input type="text" name="email"></td>
-							</tr>
-							<tr>
-								<td>Телефон</td>
-								<td><input type="text" size="14"></td>
-							</tr>
-							<tr>
-								<td>Имя</td>
-								<td><input type="text" name="name"></td>
-							</tr>
-							<tr>
-								<td>Фамилия</td>
-								<td><input type="text" size="14"></td>
-							</tr>
-							<tr>
-								<td>Город</td>
-								<td><input type="text" size="14"></td>
-							</tr>
-							<tr>
-								<td class="star margin-cabinet">Старый пароль</td>
-								<td  class="margin-cabinet"><input type="text" name="old_password"></td>
-							</tr>
-							<tr>
-								<td class="star">Новый пароль</td>
-								<td><input type="text" name="password" id="passId"></td>
-							</tr>
-							<tr>
-								<td class="star">Подтверждение пароля</td>
-								<td><input type="text" name="password2"></td>
-							</tr>
-						</table>
-						<div class="text-center">
-							<button type="submit"  class="hvr-outline-out">Сохранить</button>
-						</div>
-					</form>
-					<p class="infor"><i>*</i> &mdash; обязательные к заполнению поля</p>
-				</div>
-			</div>
-			<!--end content-->
 			<!--start vidgets-->
-			<div class="col-xs-2">
+			<div class="hidden-xs hidden-sm hidden-md col-lg-2">
 				<div class="coll-block">
 					<div class="text-center">
 						<img src="images/operator.png">
 					</div>
-					<form action="#" method="POST">
+					<form action="#" method="POST" id="coll-me">
 						<div class="form-group">
 							<label class="name">
 								Имя:
 							</label>
-							<input type="text">
+							<input type="text" name="name">
 						</div>
 						<div class="form-group">
 							<label class="phone">
 								Телефон:
 							</label>
-							<input type="text" size="14">
+							<input type="text" name="phone">
 						</div>
 						<div class="text-center">
-							<button type="button" class="hvr-outline-out">Перезвони мне</button>
+							<button type="submit" class="hvr-outline-out">Перезвони мне</button>
 						</div>
 					</form>
 				</div>
@@ -733,7 +737,7 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/jquery-validate-v1.15.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/reg-check.js"></script>
+<script src="js/first-reg.js"></script>
 <script src="js/serch.js"></script>
 <script src="js/scroll-up.js"></script>
 

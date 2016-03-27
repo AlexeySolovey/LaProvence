@@ -71,7 +71,7 @@
 	<div class="bread-crumbs">
 		<div class="container ">
 			<div class="row">
-				<div class="col-xs-offset-3 col-xs-9">
+				<div class="col-sm-offset-3 col-sm-9 ">
 					<a href="#">Главная</a>
 					<a href="#">Каталог товаров</a>
 					<a href="#">Постельное белье лен</a>
@@ -82,8 +82,42 @@
 	</div>
 	<section class="container">
 		<div class="row">
+			<!--Start MAIN block-->
+			<div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+				<a href="#menu" id="menu-button" class="hvr-outline-out">Меню</a>
+			</div>
+			<div class="col-xs-12 col-sm-push-3 col-sm-9 col-md-push-3 col-md-9 col-lg-push-3 col-lg-7">
+				<h2>Наволочка лен 100%</h2>
+				<div class="goods">
+					<a href="cardOfGood.html">
+						<img src="images/goods2.png">
+					</a>
+					<div class="information">
+						<p class="describe">Наволочка Лен 100%</p>
+						<p class="size">Размер: 70x70 см</p>
+						<p class="code">Код: 15c384</p>
+						<p class="fabric">Производитель: Белоруский Лен</p>
+						<span class="past-price">35 000 грн</span>
+						<span class="now-price">30 000 грн</span>
+						<button type="button" class="hvr-outline-out">В КОРЗИНУ</button>
+					</div>
+					<div class="detail">
+						<h5>Описание</h5>
+						<p>Плед "Пазл"  (12с529)</p>
+						<p>Плед "Пазл"  из льна и хлопка очень мягкий, теплый и уютный! Он замечательно впишется в ваш дом если вы цените натуральность, экологичность и красоту!</p>
+						<p>Состав ткани:  лен - 61%, хлопок - 39%</p><br/>
+						<p>Размер: 190х120 см </p> <br/>
+						<p>Производитель: Оршанский льнокомбинат (г. Орша)</p>
+						<p>Страна производства: Беларусь</p><br/>
+
+						<p><i>Льняные пледы и покрывала из умягченного льна лучший подарок себе и близким!  Летом под ними приятно и комфортно спать, зимой они согревают и снимают усталость после трудового дня. Такой плед захочет иметь каждый кто хоть раз соприкоснулся с ним!</i></p>
+					</div>
+				</div>
+			</div>
+			<!--end content-->
 			<!-- START MENU-->
-			<menu class="col-xs-3">
+			<menu class="col-xs-12 col-sm-pull-9 col-sm-3 col-md-pull-9 col-md-3 col-lg-pull-7 col-lg-3">
+				<a name="menu" style="position: absolute; margin-top: -50px"></a>
 				<div class="panel-group" id="accordion">
 					<div class="panel">
 						<div class="panel-heading">
@@ -580,39 +614,8 @@
 					</div>
 			</menu>
 			<!--end menu-->
-			<!--Start MAIN block-->
-			<div class="col-xs-7">
-				<h2>Наволочка лен 100%</h2>
-				<div class="goods">
-					<a href="cardOfGood.html">
-						<img src="images/goods2.png">
-					</a>
-					<div class="information">
-						<p class="describe">Наволочка Лен 100%</p>
-						<p class="size">Размер: 70x70 см</p>
-						<p class="code">Код: 15c384</p>
-						<p class="fabric">Производитель: Белоруский Лен</p>
-						<span class="past-price">35 000 грн</span>
-						<span class="now-price">30 000 грн</span>
-						<button type="button" class="hvr-outline-out">В КОРЗИНУ</button>
-					</div>
-					<div class="detail">
-						<h5>Описание</h5>
-						<p>Плед "Пазл"  (12с529)</p>
-						<p>Плед "Пазл"  из льна и хлопка очень мягкий, теплый и уютный! Он замечательно впишется в ваш дом если вы цените натуральность, экологичность и красоту!</p>
-						<p>Состав ткани:  лен - 61%, хлопок - 39%</p><br/>
-						<p>Размер: 190х120 см </p> <br/>
-						<p>Производитель: Оршанский льнокомбинат (г. Орша)</p>
-						<p>Страна производства: Беларусь</p><br/>
-
-						<p><i>Льняные пледы и покрывала из умягченного льна лучший подарок себе и близким!  Летом под ними приятно и комфортно спать, зимой они согревают и снимают усталость после трудового дня. Такой плед захочет иметь каждый кто хоть раз соприкоснулся с ним!</i></p>
-					</div>
-				</div>
-
-			</div>
-			<!--end content-->
 			<!--start vidgets-->
-			<div class="col-xs-2">
+			<div class="hidden-xs hidden-sm hidden-md col-lg-2">
 				<div class="registration-block">
 					<form action="#" method="POST">
 						<div class="form-group">
@@ -737,7 +740,9 @@
 </footer>
 
 <script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-validate-v1.15.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/first-reg.js"></script>
 <script src="js/serch.js"></script>
 <script src="js/scroll-up.js"></script>
 
