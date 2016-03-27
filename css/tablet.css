@@ -68,6 +68,9 @@ span {
 .wrap h2 {
   margin-top: 13px;
 }
+.under-mobile-table {
+  display: none;
+}
 /*header*/
 header a {
   color: #846c67;
@@ -272,6 +275,9 @@ section table tr td.discribe {
 section table tr td.together {
   color: #ff8888;
   font-size: 20px;
+}
+.mobile-table {
+  display: none;
 }
 /*widggets block*/
 section .col-xs-2 {

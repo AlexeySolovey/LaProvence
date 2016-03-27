@@ -251,58 +251,6 @@ header button.bag {
   padding-right: 10px;
   position: absolute;
 }
-/*table*/
-table {
-  background: #fff;
-  width: 100%;
-  border: 15px solid #fff;
-}
-table tr {
-  text-align: center;
-  padding: 10px;
-}
-table tr th {
-  color: #BFBFBF;
-  font-family: OpenSans-Regular;
-  font-size: 15px;
-  text-align: center;
-  padding: 0 12px 23px 0;
-  font-weight: normal;
-}
-table tr td {
-  border: 1px solid #fff;
-  padding: 9px 12px;
-  color: #846c67;
-  font-family: OpenSans-Regular;
-  font-size: 15px;
-}
-table tr td img {
-  height: 46px;
-  width: 46px;
-}
-table tr td a {
-  color: #bdbdbd;
-}
-table tr td a:hover {
-  color: #ff8888;
-  text-decoration: none;
-}
-table tr td span {
-  color: #846c67;
-}
-table tr td.discribe {
-  font-size: 13px;
-}
-table tr td.together {
-  color: #ff8888;
-  font-size: 20px;
-}
-table.mobile-table {
-  border: 0;
-}
-table.mobile-table tr {
-  padding: 10px 0;
-}
 /*widggets block*/
 section .col-xs-2 {
   padding-left: 0;
@@ -876,6 +824,9 @@ menu .panel .panel-heading {
   font-size: 13.4px;
   color: #846c67;
 }
+.basket section .big-bag {
+  margin-top: 7px;
+}
 .basket section .continue-buy {
   width: 50%;
   float: left;
@@ -919,6 +870,13 @@ menu .panel .panel-heading {
   color: #fff;
   text-transform: uppercase;
   font-family: OpenSans-Semibold;
+}
+.basket section .table-header h2 {
+  text-align: left;
+  font-size: 17.3px;
+}
+.basket section .table-header h5 {
+  font-size: 12px;
 }
 /*accept order*/
 .order-message {
@@ -964,6 +922,149 @@ menu .panel .panel-heading {
 }
 .return a:hover {
   color: #ff8888;
+}
+/*table*/
+table {
+  background: #fff;
+  width: 100%;
+  border: 15px solid #fff;
+}
+table tr {
+  text-align: center;
+  padding: 10px;
+}
+table tr th {
+  color: #BFBFBF;
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  text-align: center;
+  padding: 0 12px 23px 0;
+  font-weight: normal;
+}
+table tr td {
+  border: 1px solid #fff;
+  padding: 9px 12px;
+  color: #846c67;
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+}
+table tr td img {
+  height: 46px;
+  width: 46px;
+}
+table tr td a {
+  color: #bdbdbd;
+}
+table tr td a:hover {
+  color: #ff8888;
+  text-decoration: none;
+}
+table tr td span {
+  color: #846c67;
+}
+table tr td span.together {
+  color: #ff8888;
+  font-size: 20px;
+}
+table tr td.discribe {
+  font-size: 13px;
+}
+table tr td.together {
+  color: #ff8888;
+  font-size: 20px;
+}
+.mobile-table {
+  padding-right: 40px;
+  padding-left: 40px;
+  background: #fff;
+}
+.mobile-table table {
+  border: 0;
+  min-width: 240px;
+}
+.mobile-table table tr {
+  padding: 10px 0;
+}
+.mobile-table table tr th {
+  text-align: left;
+}
+.mobile-table table tr th.price {
+  text-align: center;
+}
+.mobile-table table tr td {
+  padding: 9px 0;
+  vertical-align: top;
+  text-align: left;
+}
+.mobile-table table tr td img {
+  height: 46px;
+  width: 46px;
+}
+.mobile-table table tr td.count {
+  padding-top: 0;
+  text-align: center;
+}
+.mobile-table table tr td.discribe {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.mobile-table table tr td.price {
+  line-height: 1;
+  text-align: center;
+  vertical-align: bottom;
+  padding-bottom: 8px;
+}
+.mobile-table table tr td.remove {
+  vertical-align: middle;
+  padding-left: 9px;
+}
+.mobile-table table tfoot tr td {
+  text-align: center;
+}
+.mobile-table table tfoot tr td span {
+  padding-left: 20px;
+}
+.continue-buy {
+  padding: 43px 52px;
+}
+.continue-buy a {
+  text-transform: uppercase;
+  font-family: OpenSans-Semibold;
+  font-size: 12px;
+  color: #BFBFBF;
+  text-decoration: underline;
+}
+.continue-buy a:before {
+  content: "";
+  background: url(../images/sprites-basket.png);
+  background-position: 0 0;
+  width: 8px;
+  height: 12px;
+  position: absolute;
+  margin-left: -15px;
+  margin-top: 5px;
+}
+.continue-buy a:hover {
+  color: #ff8888;
+}
+.continue-buy a:hover:before {
+  background-position: -13px 0;
+  width: 8px;
+  height: 11px;
+}
+.buy {
+  text-align: right;
+  float: right;
+  padding: 39px 47px;
+}
+.buy button {
+  padding: 5px 16px;
+  font-size: 12px;
+  border: 0;
+  background: #ff8888;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: OpenSans-Semibold;
 }
 /**********************************
 			registretion
@@ -1192,11 +1293,36 @@ menu .panel .panel-heading {
   ul.paginat {
     display: block;
   }
-  .table-header {
+  .basket section h2 {
+    text-align: left;
+  }
+  .basket section .big-bag {
+    margin-top: 3px;
+  }
+  .basket section .table-header {
     display: none;
   }
-  .mobile-table {
+  .basket .mobile-table {
     display: none;
+  }
+  .basket .under-mobile-table {
+    display: none;
+  }
+}
+@media only screen and (max-width: 442px) {
+  .buy,
+  .continue-buy {
+    text-align: center;
+    float: none;
+  }
+  .buy {
+    padding-bottom: 0;
+  }
+  .continue-buy {
+    padding-top: 20px;
+  }
+  .under-mobile-table {
+    min-width: 319px;
   }
 }
 @media only screen and (max-width: 380px) {

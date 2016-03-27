@@ -83,7 +83,7 @@
 		<div class="table-header">
 			<div class="big-bag"></div>
 			<h2>Состояние корзины</h2>
-			<h5>Ваша корзина содержит: 3 товара</h5>
+			<h5>Корзина содержит: 3 товара</h5>
 		</div>
 		<div class="row">
 			<!-- START MENU-->
@@ -659,17 +659,17 @@
 			<tr>
 				<th width="">Товар</th>
 				<th width="">Описание</th>
-				<th width="150">Итого</th>
+				<th width="150" class="price">Итого</th>
 				<th></th>
 			</tr>
 			<tr>
 				<td  rowspan="2"><img src="images/preview-table.png"></td>
 				<td  rowspan="2" class="discribe">Полотенце махровое 70х140 см (бамбук/хл)</td>
-				<td>400,00 грн.</td>
-				<td  rowspan="2"><a href="#">Х</a></td>
+				<td class="price">1400,00 грн.</td>
+				<td class="remove" rowspan="2"><a href="#">Х</a></td>
 			</tr>
 			<tr>
-				<td>
+				<td class="count">
 					<a href="#" class="left"></a>
 					<span>1</span>
 					<a href="#" class="right"></a>
@@ -678,11 +678,11 @@
 			<tr>
 				<td  rowspan="2"><img src="images/preview-table.png"></td>
 				<td  rowspan="2" class="discribe">Полотенце махровое 70х140 см (бамбук/хл)</td>
-				<td>400,00 грн.</td>
-				<td  rowspan="2"><a href="#">Х</a></td>
+				<td class="price">400,00 грн.</td>
+				<td class="remove" rowspan="2"><a href="#">Х</a></td>
 			</tr>
 			<tr>
-				<td>
+				<td class="count">
 					<a href="#" class="left"></a>
 					<span>1</span>
 					<a href="#" class="right"></a>
@@ -691,26 +691,33 @@
 			<tr>
 				<td  rowspan="2"><img src="images/preview-table.png"></td>
 				<td  rowspan="2" class="discribe">Полотенце махровое 70х140 см (бамбук/хл)</td>
-				<td>400,00 грн.</td>
-				<td  rowspan="2"><a href="#">Х</a></td>
+				<td class="price">400,00 грн.</td>
+				<td class="remove" rowspan="2"><a href="#">Х</a></td>
 			</tr>
 			<tr>
-				<td>
+				<td class="count">
 					<a href="#" class="left"></a>
 					<span>1</span>
 					<a href="#" class="right"></a>
 				</td>
 			</tr>
-			<tr>
-				<td colspan="1"></td>
-				<td>Итого:</td>
-				<td class="together">2 500,00 грн.</td>
-			</tr>
+			<tfoot>
+				<tr>
+					<td colspan="3" class="text-center">
+						<span>Итого:</span>
+						<span class="together">2 500,00 грн.</span>
+					</td>
+				</tr>
+			</tfoot>
 		</table>
-
-		<div>какой-то текст</div>
-		<div>другой текст</div>
-
+	</div>
+	<div class="under-mobile-table">
+		<div class="buy">
+			<button type="button" class="hvr-outline-out">Оформить заказ</button>
+		</div>
+		<div class="continue-buy">
+			<a href="#">Продолжить покупки</a>
+		</div>
 	</div>
 	<div class="bottom-layout"></div>
 </div> <!-- end wrap-->

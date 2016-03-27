@@ -251,59 +251,6 @@ header {
 		}
 	}
 }
-/*table*/
-table{
-	background: #fff;
-	width: 100%;
-	border: 15px solid #fff;
-	tr{
-		text-align: center;
-		padding: 10px;
-		th{
-			color: #BFBFBF;
-			font-family: @OpenSansRegular;
-			font-size: 15px;
-			text-align: center;
-			padding: 0 12px 23px 0;
-			font-weight: normal;
-		}
-		td{
-			border: 1px solid #fff;
-			padding: 9px 12px;
-			color: @greyTextColor;
-			font-family: @OpenSansRegular;
-			font-size: 15px;
-			img{
-				height: 46px;
-				width: 46px;
-			}
-			a{
-				color: @lightGreyColor;
-				&:hover{
-					color:@pinkTextColor;
-					text-decoration: none;
-				}
-			}
-			span{
-				color: @greyTextColor;
-			}
-			&.discribe{
-				font-size: 13px;
-			}
-			&.together{
-				color: @pinkTextColor;
-				font-size: 20px;
-			}
-		}
-	}
-}
-table.mobile-table{
-	border: 0;
-	tr{
-		padding:10px 0;
-	}
-}
-
 /*widggets block*/
 section .col-xs-2{
 	padding-left: 0;
@@ -834,6 +781,9 @@ menu {
 			font-size: 13.4px;
 			color: @greyTextColor;
 		}
+		.big-bag{
+			margin-top: 7px;
+		}
 		.continue-buy{
 			width: 50%;
 			float: left;
@@ -876,6 +826,15 @@ menu {
 				color: #fff;
 				text-transform: uppercase;
 				font-family: @OpenSansSemibold;
+			}
+		}
+		.table-header{
+			h2{
+				text-align: left;
+				font-size: 17.3px;
+			}
+			h5{
+				font-size: 12px;
 			}
 		}
 	}
@@ -926,6 +885,149 @@ menu {
 
 			}
 		}
+	}
+}
+/*table*/
+table{
+	background: #fff;
+	width: 100%;
+	border: 15px solid #fff;
+	tr{
+		text-align: center;
+		padding: 10px;
+		th{
+			color: #BFBFBF;
+			font-family: @OpenSansRegular;
+			font-size: 15px;
+			text-align: center;
+			padding: 0 12px 23px 0;
+			font-weight: normal;
+		}
+		td{
+			border: 1px solid #fff;
+			padding: 9px 12px;
+			color: @greyTextColor;
+			font-family: @OpenSansRegular;
+			font-size: 15px;
+			img{
+				height: 46px;
+				width: 46px;
+			}
+			a{
+				color: @lightGreyColor;
+				&:hover{
+					color:@pinkTextColor;
+					text-decoration: none;
+				}
+			}
+			span{
+				color: @greyTextColor;
+				&.together{
+					color: @pinkTextColor;
+					font-size: 20px;
+				}
+			}
+			&.discribe{
+				font-size: 13px;
+			}
+			&.together{
+				color: @pinkTextColor;
+				font-size: 20px;
+			}
+		}
+	}
+}
+.mobile-table{
+	padding-right: 40px;
+	padding-left: 40px;
+	background: #fff;
+	table{
+		border: 0;
+		min-width: 240px;
+		tr{
+			padding:10px 0;
+			th{
+				text-align: left;
+				&.price{
+					text-align: center;
+				}
+			}
+			td{
+				padding: 9px 0;
+				vertical-align: top;
+				text-align: left;
+				img{
+					height: 46px;
+					width: 46px;
+				}
+				&.count{
+					padding-top: 0;
+					text-align: center;
+				}
+				&.discribe{
+					padding-left: 5px;
+					padding-right: 5px;
+				}
+				&.price{
+					line-height: 1;
+					text-align: center;
+					vertical-align: bottom;
+					padding-bottom: 8px;
+				}
+				&.remove{
+					vertical-align: middle;
+					padding-left: 9px;
+				}
+			}
+		}
+		tfoot tr td{
+			text-align: center;
+			span{
+				padding-left: 20px;
+			}
+		}
+	}
+}
+.continue-buy{
+	padding: 43px 52px;
+	a{
+		text-transform: uppercase;
+		font-family: @OpenSansSemibold;
+		font-size: 12px;
+		color: #BFBFBF;
+		text-decoration: underline;
+		&:before{
+			content:"";
+			background: url(../images/sprites-basket.png);
+			background-position: 0 0;
+			width: 8px;
+			height: 12px;
+			position: absolute;
+			margin-left: -15px;
+			margin-top: 5px;
+		}
+		&:hover{
+			color: @pinkTextColor;
+			&:before{
+				background-position: -13px 0;
+				width: 8px;
+				height: 11px;
+			}
+		}
+	}
+}
+.buy{
+	text-align: right;
+	float: right;
+	padding: 39px 47px;
+	button{
+		padding: 5px 16px;
+		font-size: 12px;
+		border: 0;
+		background: @pinkTextColor;
+		color: #fff;
+		text-transform: uppercase;
+		font-family: @OpenSansSemibold;
 	}
 }
 /**********************************
@@ -1160,16 +1262,43 @@ menu {
 	ul.paginat{
 		display: block;
 	}
-	.table-header{
-		display: none;
-	}
-	.mobile-table{
-		display: none;
+	.basket{
+		section{
+			h2{
+				text-align: left;
+			}
+			.big-bag{
+				margin-top: 3px;
+			}
+			.table-header{
+				display: none;
+			}
+		}
+		.mobile-table{
+			display: none;
+		}
+		.under-mobile-table{
+			display: none;
+		}
 	}
 }
 
 
-
+@media only screen and (max-width: 442px){
+	.buy, .continue-buy{
+		text-align: center;
+		float: none;
+	}
+	.buy{
+		padding-bottom: 0;
+	}
+	.continue-buy{
+		padding-top:20px;
+	}
+	.under-mobile-table{
+		min-width: 319px;
+	}
+}
 
 @media only screen and (max-width: 380px){
 	.baner {
