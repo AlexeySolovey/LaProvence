@@ -635,21 +635,21 @@
 			<!--start vidgets-->
 			<div class="hidden-xs hidden-sm hidden-md col-lg-2">
 				<div class="registration-block">
-					<form action="#" method="POST">
+					<form action="#" id="reg" method="POST">
 						<div class="form-group">
 							<label class="mail">
 								Email:
 							</label>
-							<input type="text">
+							<input type="text" name="email" maxlength="30">
 						</div>
 						<div class="form-group">
 							<label class="password">
 								Пароль:
 							</label>
-							<input type="text" size="14">
+							<input type="text" name="password" maxlength="20">
 						</div>
 						<div class="text-center">
-							<button type="button" class="hvr-outline-out">ВОЙТИ</button>
+							<button type="submit" class="hvr-outline-out">ВОЙТИ</button>
 						</div>
 					</form>
 					<div class="text-center">
@@ -666,13 +666,13 @@
 							<label class="name">
 								Имя:
 							</label>
-							<input type="text" name="name">
+							<input type="text" name="name" maxlength="20">
 						</div>
 						<div class="form-group">
 							<label class="phone">
 								Телефон:
 							</label>
-							<input type="text" name="phone">
+							<input type="text" name="phone" maxlength="15">
 						</div>
 						<div class="text-center">
 							<button type="submit" class="hvr-outline-out">Перезвони мне</button>
@@ -700,7 +700,7 @@
 						<a href="#">Все новости</a>
 					</div>
 				</div>
-			</div>
+			</div>	
 		</div>
 		<!--end big block-->
 	</section>
@@ -760,7 +760,7 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/jquery-validate-v1.15.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/first-reg.js"></script>
+<script src="js/reg-check.js"></script>
 <script src="js/serch.js"></script>
 <script src="js/scroll-up.js"></script>
 

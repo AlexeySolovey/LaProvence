@@ -76,6 +76,7 @@
 					<a href="#">Каталог товаров</a>
 					<a href="#">Постельное белье лен</a>
 					<a href="#">Наволочки</a>
+					<span class="nameBC">Наволочка лен 100%</span>
 				</div>
 			</div>
 		</div>
@@ -90,13 +91,13 @@
 				<h2>Наволочка лен 100%</h2>
 				<div class="goods">
 					<a href="cardOfGood.html">
-						<img src="images/goods2.png">
+						<img src="images/goods2.png" class="img-responsive">
 					</a>
 					<div class="information">
 						<p class="describe">Наволочка Лен 100%</p>
 						<p class="size">Размер: 70x70 см</p>
 						<p class="code">Код: 15c384</p>
-						<p class="fabric">Производитель: Белоруский Лен</p>
+						<p class="fabric">Про-ль: Белоруский Лен</p>
 						<span class="past-price">35 000 грн</span>
 						<span class="now-price">30 000 грн</span>
 						<button type="button" class="hvr-outline-out">В КОРЗИНУ</button>
@@ -617,21 +618,21 @@
 			<!--start vidgets-->
 			<div class="hidden-xs hidden-sm hidden-md col-lg-2">
 				<div class="registration-block">
-					<form action="#" method="POST">
+					<form action="#" id="reg" method="POST">
 						<div class="form-group">
 							<label class="mail">
 								Email:
 							</label>
-							<input type="text">
+							<input type="text" name="email" maxlength="30">
 						</div>
 						<div class="form-group">
 							<label class="password">
 								Пароль:
 							</label>
-							<input type="text" size="14">
+							<input type="text" name="password" maxlength="20">
 						</div>
 						<div class="text-center">
-							<button type="button" class="hvr-outline-out">ВОЙТИ</button>
+							<button type="submit" class="hvr-outline-out">ВОЙТИ</button>
 						</div>
 					</form>
 					<div class="text-center">
@@ -644,21 +645,21 @@
 						<img src="images/operator.png">
 						<p>Ваша заявка принята</p>
 					</div>
-					<form action="#" method="POST">
+					<form action="#" method="POST" id="coll-me">
 						<div class="form-group">
 							<label class="name">
 								Имя:
 							</label>
-							<input type="text">
+							<input type="text" name="name" maxlength="20">
 						</div>
 						<div class="form-group">
 							<label class="phone">
 								Телефон:
 							</label>
-							<input type="text" size="14">
+							<input type="text" name="phone" maxlength="15">
 						</div>
 						<div class="text-center">
-							<button type="button" class="hvr-outline-out">Перезвони мне</button>
+							<button type="submit" class="hvr-outline-out">Перезвони мне</button>
 						</div>
 					</form>
 				</div>
@@ -742,7 +743,7 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/jquery-validate-v1.15.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/first-reg.js"></script>
+<script src="js/reg-check.js"></script>
 <script src="js/serch.js"></script>
 <script src="js/scroll-up.js"></script>
 

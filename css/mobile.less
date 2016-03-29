@@ -278,6 +278,9 @@ section .col-xs-2{
 					font-size: 13px;
 					color: @greyTextColor;
 					margin-bottom: 0;
+					&.error{
+						color: @pinkTextColor;
+					}
 				}
 				input{
 					width: 100%;
@@ -744,11 +747,14 @@ menu {
 		margin-top: 10px;
 		font-size: 14px !important;
 		font-family: @OpenSansRegular !important;
+		display: none;
+	}
+	span.nameBC{
+		display: block;
 	}
 	.goods {
 		img{
 			width: 324px;
-			height: 232px;
 		}
 		p.describe{
 			padding-top: 16px;
@@ -850,7 +856,6 @@ menu {
 }
 /*accept order*/
 .order-message{
-	width: 460px;
 	background: #fff;
 	padding: 10px 12px;
 	margin: 40px auto;
@@ -872,6 +877,8 @@ menu {
 }
 .return{
 	margin-left: 30px;
+	margin-bottom: 30px;
+	text-align: center;
 	a{
 		text-transform: uppercase;
 		font-family: @OpenSansSemibold;
@@ -1146,8 +1153,7 @@ table{
 }
 /*update*/
 .back-links-right, .back-links-left{
-	width: 50%;
-	padding: 0 60px;
+	margin-bottom: 30px;
 	a{
 		text-transform: uppercase;
 		font-family: @OpenSansSemibold;
@@ -1165,7 +1171,6 @@ table{
 .back-links-left{
 	float: left;
 	text-align: left;
-	padding-right: 20px;
 	a{
 		padding: 0;
 		margin: 0;
@@ -1311,11 +1316,22 @@ table{
 			display: none;
 		}
 	}
+	/*card*/
+	.card{
+	h2{
+		display: block;
+		text-align: left;
+		}
+		span.nameBC{
+			display: none;
+		}
+	}
 }
 
 
 @media only screen and (max-width: 442px){
-	.buy, .continue-buy{
+	.buy, .continue-buy,
+	.back-links-left, .back-links-right{
 		text-align: center;
 		float: none;
 	}

@@ -4,8 +4,40 @@
 		"selected_items":
 		[
 			[
+				"ele",
+				"elements"
+			],
+			[
 				"margi",
-				"margin-right"
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"he",
+				"line-height"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"fo",
+				"font-size"
 			],
 			[
 				"margin",
@@ -20,10 +52,6 @@
 				"style	Attr"
 			],
 			[
-				"paddin",
-				"padding-bottom"
-			],
-			[
 				"mi",
 				"min-width"
 			],
@@ -36,24 +64,12 @@
 				"font-family"
 			],
 			[
-				"fo",
-				"font-family"
-			],
-			[
 				"me",
 				"menuColor"
 			],
 			[
-				"mar",
-				"margin-left"
-			],
-			[
 				"u",
 				"url()"
-			],
-			[
-				"di",
-				"display"
 			],
 			[
 				"bor",
@@ -66,10 +82,6 @@
 			[
 				"a",
 				"auto"
-			],
-			[
-				"paddi",
-				"padding-top"
 			],
 			[
 				"p",
@@ -94,10 +106,6 @@
 			[
 				"padi",
 				"padding-bottom"
-			],
-			[
-				"pa",
-				"padding-right"
 			],
 			[
 				"li",
@@ -311,7 +319,7 @@
 			"file": "css/mobile.less",
 			"settings":
 			{
-				"buffer_size": 19667,
+				"buffer_size": 22407,
 				"line_ending": "Windows"
 			}
 		},
@@ -319,15 +327,7 @@
 			"file": "css/tablet.less",
 			"settings":
 			{
-				"buffer_size": 19801,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "basket.html",
-			"settings":
-			{
-				"buffer_size": 18865,
+				"buffer_size": 20199,
 				"line_ending": "Windows"
 			}
 		},
@@ -335,7 +335,7 @@
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 979,
+				"buffer_size": 978,
 				"line_ending": "Windows"
 			}
 		},
@@ -343,7 +343,7 @@
 			"file": "css/display.less",
 			"settings":
 			{
-				"buffer_size": 17460,
+				"buffer_size": 17817,
 				"line_ending": "Windows"
 			}
 		}
@@ -398,8 +398,21 @@
 	],
 	"file_history":
 	[
-		"/C/OpenServer/domains/laProvence/catalog.html",
+		"/C/OpenServer/domains/laProvence/enter.html",
+		"/C/OpenServer/domains/laProvence/cardOfGood.html",
 		"/C/OpenServer/domains/laProvence/index.html",
+		"/C/OpenServer/domains/laProvence/registretion.html",
+		"/C/OpenServer/domains/laProvence/cabinet.html",
+		"/C/OpenServer/domains/laProvence/acceptOrder.html",
+		"/C/OpenServer/domains/laProvence/update.html",
+		"/C/OpenServer/domains/laProvence/test.php",
+		"/C/OpenServer/domains/laProvence/js/reg-check.js",
+		"/C/OpenServer/domains/laProvence/js/first-reg.js",
+		"/C/OpenServer/domains/laProvence/css/fonts.css",
+		"/C/OpenServer/domains/english/index.php",
+		"/C/OpenServer/domains/laProvence/catalog.html",
+		"/C/OpenServer/domains/laProvence/basket.html",
+		"/C/OpenServer/domains/laProvence/test2.php",
 		"/C/OpenServer/domains/laProvence/js/scroll-up.js",
 		"/C/OpenServer/domains/laProvence/css/style.css",
 		"/C/OpenServer/domains/laProvence/js/serch.js",
@@ -407,31 +420,20 @@
 		"/C/Users/Alexey/Downloads/liTextLength/index.html",
 		"/C/Users/Alexey/Downloads/index.html",
 		"/C/Users/Alexey/Downloads/jquery.truncatable.js",
-		"/C/OpenServer/domains/laProvence/css/fonts.css",
 		"/C/OpenServer/domains/laProvence/css/style.less",
 		"/C/OpenServer/domains/laProvence/css/mobile.css",
-		"/C/OpenServer/domains/laProvence/js/reg-check.js",
 		"/C/OpenServer/domains/laProvence/linen.html",
 		"/C/Users/Alexey/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Alexey/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/OpenServer/domains/laProvence/basket.html",
-		"/C/OpenServer/domains/laProvence/update.html",
-		"/C/OpenServer/domains/laProvence/acceptOrder.html",
-		"/C/OpenServer/domains/laProvence/cabinet.html",
-		"/C/OpenServer/domains/laProvence/registretion.html",
-		"/C/OpenServer/domains/laProvence/js/first-reg.js",
-		"/C/OpenServer/domains/laProvence/enter.html",
 		"/C/OpenServer/domains/laProvence/domain.sublime-project",
 		"/C/OpenServer/domains/laProvence/js/jquery-validate-v1.15.js",
 		"/C/OpenServer/domains/laProvence/css/sprites-basket.css",
 		"/C/OpenServer/domains/laProvence/css/mobile.less",
-		"/C/OpenServer/domains/laProvence/cardOfGood.html",
 		"/C/OpenServer/domains/laProvence/css/bootstrap.css",
 		"/C/OpenServer/domains/laProvence/css/hover.css",
 		"/C/OpenServer/domains/laProvence/index.php",
 		"/C/OpenServer/domains/yii/yii2/composer.lock",
 		"/C/OpenServer/domains/yii/requirements.php",
-		"/C/OpenServer/domains/laProvence/test.php",
 		"/C/OpenServer/domains/laProvence/css/sprites.css",
 		"/C/OpenServer/domains/laProvence/hover.html",
 		"/C/OpenServer/domains/laProvence/hover/css/hover.css",
@@ -469,6 +471,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h2",
+			"goods",
+			"goods button",
+			".goods button",
+			"fabr",
+			"return",
+			"form-group",
+			".form-group{",
+			"error",
+			"form-group",
+			"log",
+			"outline:none",
+			"mobile-table",
+			"together",
+			".continue-buy",
+			"big-bag",
+			"table-header",
+			"tabel-header",
 			"top",
 			"menu-butt",
 			"goods",
@@ -516,7 +536,7 @@
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
@@ -530,15 +550,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19667,
+						"buffer_size": 22407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19414,
-								19414
+								21854,
+								21854
 							]
 						],
 						"settings":
@@ -547,7 +567,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 16935.0,
+						"translation.y": 19415.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -559,15 +579,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19801,
+						"buffer_size": 20199,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13912,
-								13912
+								12666,
+								12500
 							]
 						],
 						"settings":
@@ -576,10 +596,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 11432.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -590,48 +610,19 @@
 			[
 				{
 					"buffer": 2,
-					"file": "basket.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18865,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17132,
-								17132
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1305.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "css/style.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 979,
+						"buffer_size": 978,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								854,
-								854
+								435,
+								435
 							]
 						],
 						"settings":
@@ -643,24 +634,24 @@
 						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "css/display.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17460,
+						"buffer_size": 17817,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13564,
-								13528
+								12303,
+								12303
 							]
 						],
 						"settings":
@@ -669,10 +660,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 11904.0,
+						"translation.y": 10959.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -706,7 +697,7 @@
 		"cols":
 		[
 			0.0,
-			0.457714320818,
+			0.401706273228,
 			1.0
 		],
 		"rows":
@@ -761,7 +752,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 222.0,
 	"status_bar_visible": true,
 	"template_settings":

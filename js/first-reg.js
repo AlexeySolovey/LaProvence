@@ -1,15 +1,4 @@
 $(function() {
-	$.validator.setDefaults({
-		errorPlacement: function(error, element) {
-/*			  if (element.attr("name") == "email" || element.attr("name") == "lname" ) {
-      error.insertAfter("#name");
-    } else {
-      error.insertAfter(element);
-    }*/
-	/*		error.insertBefore(element.parents("form:first"));*/
-			error.insertBefore(element.parent());
-		}
-	});
 	$('#mail').validate({
 		rules: {
 			mail: {

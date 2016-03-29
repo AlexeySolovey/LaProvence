@@ -289,7 +289,6 @@ section .col-lg-2{
 	padding-left: 0;
 	.registration-block{
 		margin-top: 55px;
-		height: 210px;
 		background-color: #fff;
 		margin-bottom: 20px;
 		padding:10px;
@@ -302,6 +301,9 @@ section .col-lg-2{
 					font-size: 13px;
 					color: @greyTextColor;
 					margin-bottom: 0;
+					&.error{
+						color: @pinkTextColor;
+					}
 				}
 				input{
 					width: 100%;
@@ -346,6 +348,9 @@ section .col-lg-2{
 					font-size: 13px;
 					color: @greyTextColor;
 					margin-bottom: 0;
+					&.error{
+						color: @pinkTextColor;
+					}
 				}
 				input{
 					width: 100%;
@@ -743,6 +748,9 @@ menu {
 		font-size: 14px !important;
 		font-family: @OpenSansRegular !important;
 	}
+	span.nameBC{
+		display: none;
+	}
 	.goods {
 		img{
 			width: 324px;
@@ -757,7 +765,7 @@ menu {
 			padding-bottom: 24px;
 		}
 		button{
-			margin-top: 30px;
+			margin-top: 27px;
 			margin-bottom: 30px;
 		}
 		.detail{
