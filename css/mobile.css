@@ -787,6 +787,45 @@ menu .panel .panel-heading {
   background: #ff8888;
   color: #fff;
 }
+/****************************************
+				contact
+****************************************/
+section ul {
+  padding: 0;
+}
+section ul.social {
+  margin-top: 20px;
+}
+section ul.social li {
+  display: inline-block;
+  padding-right: 4px;
+}
+section ul.social li a {
+  display: block;
+}
+section ul.social li a.vk {
+  background-position: 0 -70px;
+  width: 39px;
+  height: 39px;
+}
+section ul.social li a.fb {
+  background-position: 0 -110px;
+  width: 39px;
+  height: 39px;
+}
+section ul.social li a.odnoklasniki {
+  background-position: 0 -150px;
+  width: 39px;
+  height: 39px;
+}
+section ul.social li a.instagram {
+  background-position: 0 -190px;
+  width: 38px;
+  height: 39px;
+}
+iframe {
+  margin-bottom: 30px;
+}
 /******************************************
 				card
 *******************************************/
@@ -1316,6 +1355,9 @@ table tr td.together {
   }
   .catalog .goods .information {
     text-align: left;
+  }
+  .catalog .goods .text {
+    text-align: justify;
   }
   /*basket*/
   ul.mob-paginat {
