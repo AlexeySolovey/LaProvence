@@ -783,6 +783,8 @@ menu .panel .panel-heading {
 }
 .goods .information {
   color: #846c67;
+  padding-right: 20px;
+  text-align: justify;
 }
 .goods .information p.describe {
   font-family: sansationRegular;

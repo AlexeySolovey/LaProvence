@@ -87,6 +87,9 @@ span{
 	width: 100%;
 	height: 13px;
 }
+.img-responsive{
+	width: 100%;
+}
 .wrap{
 	min-height: 100%;
 	h2{
@@ -175,7 +178,7 @@ header {
 		color: @pinkTextColor;
 	}
 	.navbar-header .navbar-toggle {
-		border: 2px solid @greyTextColor;
+		border: 1px solid @greyTextColor;
 		border-radius: 0;
 		padding: 12px 10px 12px;
 		margin-top: -4px;
@@ -194,7 +197,7 @@ header {
 		margin-top: 4px;
 		display: block;
 		a.basket-link{
-			border: 2px solid @greyTextColor;
+			border: 1px solid @greyTextColor;
 			padding: 10px 30px 10px 10px;
 			font-size: 18px;
 			&:hover{
@@ -523,7 +526,7 @@ footer {
 ****************************/
 /*baner*/
 .baner {
-	display: block;
+	display: none;
 	width: 100%;
 	background: url(../images/baner.png);
 	background-size: cover;
@@ -691,10 +694,6 @@ menu {
 		margin-top: 13px;
 	}
 	.goods {
-		p.describe{
-			padding-top: 16px;
-			padding-bottom: 11px;
-		}
 		button{
 			margin: 18px auto 23px auto;
 			display: block;
@@ -713,6 +712,8 @@ menu {
 		text-align: center;
 		padding-bottom: 1px;
 		p.describe{
+			padding-top: 16px;
+			padding-bottom: 11px;
 			font-family: @SansationFont;
 			font-size: 15px;
 		}
@@ -775,8 +776,27 @@ section ul {
 	}
 }
 iframe{
-	margin-bottom: 30px;
+	display: none;
 }
+.social-block{
+	display: none;
+}
+/******************************************
+				news
+*******************************************/
+.goods .news{
+	.describe{
+		text-align: justify;
+		padding:0 20px;
+	}
+	.text{
+		text-align: justify;
+		padding:0 20px;
+		padding-bottom: 20px;
+	}
+	
+}
+
 /******************************************
 				card
 *******************************************/

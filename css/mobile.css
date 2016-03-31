@@ -86,6 +86,9 @@ span {
   width: 100%;
   height: 13px;
 }
+.img-responsive {
+  width: 100%;
+}
 .wrap {
   min-height: 100%;
 }
@@ -176,7 +179,7 @@ header button.bag {
   color: #ff8888;
 }
 .navbar .navbar-header .navbar-toggle {
-  border: 2px solid #846c67;
+  border: 1px solid #846c67;
   border-radius: 0;
   padding: 12px 10px 12px;
   margin-top: -4px;
@@ -197,7 +200,7 @@ header button.bag {
   display: block;
 }
 .navbar .navbar-right a.basket-link {
-  border: 2px solid #846c67;
+  border: 1px solid #846c67;
   padding: 10px 30px 10px 10px;
   font-size: 18px;
 }
@@ -525,7 +528,7 @@ footer .text-center p {
 ****************************/
 /*baner*/
 .baner {
-  display: block;
+  display: none;
   width: 100%;
   background: url(../images/baner.png);
   background-size: cover;
@@ -742,10 +745,6 @@ menu .panel .panel-heading {
   padding-bottom: 12px;
   margin-top: 13px;
 }
-.catalog .goods p.describe {
-  padding-top: 16px;
-  padding-bottom: 11px;
-}
 .catalog .goods button {
   margin: 18px auto 23px auto;
   display: block;
@@ -764,6 +763,8 @@ menu .panel .panel-heading {
   padding-bottom: 1px;
 }
 .goods .information p.describe {
+  padding-top: 16px;
+  padding-bottom: 11px;
   font-family: sansationRegular;
   font-size: 15px;
 }
@@ -824,7 +825,22 @@ section ul.social li a.instagram {
   height: 39px;
 }
 iframe {
-  margin-bottom: 30px;
+  display: none;
+}
+.social-block {
+  display: none;
+}
+/******************************************
+				news
+*******************************************/
+.goods .news .describe {
+  text-align: justify;
+  padding: 0 20px;
+}
+.goods .news .text {
+  text-align: justify;
+  padding: 0 20px;
+  padding-bottom: 20px;
 }
 /******************************************
 				card

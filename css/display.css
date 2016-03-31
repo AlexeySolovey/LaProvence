@@ -828,6 +828,17 @@ iframe {
   margin-bottom: 30px;
 }
 /******************************************
+				news
+*******************************************/
+.goods .news .describe {
+  text-align: justify;
+  padding: 0 20px;
+}
+.goods .news .text {
+  text-align: justify;
+  padding: 0 20px;
+}
+/******************************************
 				card
 *******************************************/
 .card h2 {
